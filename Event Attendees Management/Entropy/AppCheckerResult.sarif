@@ -43,6 +43,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.milad-fakurian-GJKx5lhwU3M-unsplash (1)"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.milad-fakurian-GJKx5lhwU3M-unsplash (1)",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "milad-fakurian-GJKx5lhwU3M-unsplash (1)",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.photo_2024-02-05_12-13-09"
                 }
               ],
