@@ -98,3 +98,9 @@
         Y: =256
         ZIndex: =4
 
+    Button1 As button:
+        Text: ="Button"
+        X: =728
+        Y: =256
+        ZIndex: =5
+
