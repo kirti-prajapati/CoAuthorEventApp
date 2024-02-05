@@ -112,11 +112,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "5029ddb4-101c-4d99-a6da-4a444761c396",
-    "Id": "5029ddb4-101c-4d99-a6da-4a444761c396",
+    "Id": "fd9e594a-5afd-4f0f-ad1b-5ecf463fb4ee",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Event Attendees Management",
+    "Name": "Event%2BAttendees%2BManagement.msapp",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
@@ -133,7 +133,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "Dashboard",
+    "Splash",
+    "Success"
   ]
 }
