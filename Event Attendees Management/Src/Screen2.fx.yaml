@@ -80,3 +80,7 @@
                 RadiusTopRight: =0
                 ZIndex: =5
 
+                Button1 As button:
+                    Text: ="Button"
+                    ZIndex: =1
+
