@@ -1,4 +1,4 @@
-Screen1 As screen:
+Splash As screen:
     BackgroundImage: ='4964089'
     ImagePosition: =ImagePosition.Fill
 
