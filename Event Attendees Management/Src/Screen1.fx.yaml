@@ -24,3 +24,12 @@ Screen1 As screen:
         Y: =497
         ZIndex: =2
 
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =5000
+        Visible: =false
+        X: =40
+        Y: =40
+        ZIndex: =3
+
