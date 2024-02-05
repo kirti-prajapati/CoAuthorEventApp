@@ -10,8 +10,6 @@
     "Host": 3,
     "Image1": 5,
     "Label1": 8,
-    "Label2": 7,
-    "Label3": 6,
     "MainContainer1": 16,
     "Screen1": 4,
     "Screen2": 9,
@@ -20,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 09:10:14",
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 09:22:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -47,8 +45,8 @@
   "OrderXMLTemplate": {
     "button": 3,
     "groupContainer": 2,
-    "image": 1,
-    "label": 0
+    "image": 0,
+    "label": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -59,8 +57,6 @@
     "Host": {},
     "Image1": {},
     "Label1": {},
-    "Label2": {},
-    "Label3": {},
     "MainContainer1": {},
     "Screen1": {},
     "Screen2": {},
@@ -71,20 +67,18 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "BottomContainer1": 6,
-    "Button2": 9,
-    "Button3": 10,
-    "HeaderContainer1": 5,
+    "BottomContainer1": 4,
+    "Button2": 7,
+    "Button3": 8,
+    "HeaderContainer1": 3,
     "Host": 0,
-    "Image1": 1,
-    "Label1": 3,
-    "Label2": 2,
-    "Label3": 0,
-    "MainContainer1": 8,
+    "Image1": 0,
+    "Label1": 1,
+    "MainContainer1": 6,
     "Screen1": 3,
     "Screen2": 8,
-    "ScreenContainer1": 4,
-    "SidebarContainer1": 7
+    "ScreenContainer1": 2,
+    "SidebarContainer1": 5
   },
   "ResourcesJsonIndices": {
     "Image-4964089": 1,

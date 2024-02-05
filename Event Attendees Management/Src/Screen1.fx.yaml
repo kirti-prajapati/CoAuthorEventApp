@@ -12,28 +12,15 @@ Screen1 As screen:
 
     Label1 As label:
         Align: =Align.Center
-        AutoHeight: =true
-        Color: =RGBA(125, 130, 117, 1)
+        Color: =RGBA(137, 83, 163, 1)
         Fill: =RGBA(41, 44, 99, 0)
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
-        Height: =100
+        Height: =61
         Size: =32
-        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad New"
-        Width: =1147
-        X: =90
-        Y: =482
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad "
+        Width: =1097
+        X: =115
+        Y: =497
         ZIndex: =2
-
-    Label2 As label:
-        Text: ="Event management "
-        X: =560
-        Y: =284
-        ZIndex: =3
-
-    Label3 As label:
-        Text: ="Text 1234"
-        X: =40
-        Y: =40
-        ZIndex: =4
 
