@@ -12,14 +12,6 @@ Splash As screen:
         Y: =40
         ZIndex: =3
 
-    Image1 As image:
-        Height: =167
-        Image: ='photo_2024-02-05_12-17-19-transformed'
-        Width: =450
-        X: =440
-        Y: =312
-        ZIndex: =4
-
     Label1 As label:
         Align: =Align.Center
         Color: =RGBA(109, 49, 162, 1)
