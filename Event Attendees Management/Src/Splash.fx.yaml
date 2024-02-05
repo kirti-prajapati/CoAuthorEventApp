@@ -1,0 +1,13 @@
+Splash As screen:
+    BackgroundImage: ='4964089'
+    ImagePosition: =ImagePosition.Fill
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =5000
+        Visible: =false
+        X: =40
+        Y: =40
+        ZIndex: =3
+

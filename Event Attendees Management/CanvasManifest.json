@@ -134,6 +134,8 @@
   },
   "ScreenOrder": [
     "Screen1",
-    "Dashboard"
+    "Dashboard",
+    "Splash",
+    "Success"
   ]
 }
