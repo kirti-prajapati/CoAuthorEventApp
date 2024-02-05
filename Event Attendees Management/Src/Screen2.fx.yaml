@@ -90,3 +90,9 @@
         Y: =40
         ZIndex: =2
 
+    Button3 As button:
+        Text: ="Button"
+        X: =68
+        Y: =256
+        ZIndex: =3
+
