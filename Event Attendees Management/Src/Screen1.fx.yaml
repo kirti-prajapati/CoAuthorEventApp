@@ -17,10 +17,20 @@ Screen1 As screen:
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =61
-        Size: =32
+        Size: =33
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad "
         Width: =1097
         X: =115
         Y: =497
         ZIndex: =2
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =5000
+        OnTimerEnd: =Navigate(Dashboard,ScreenTransition.Fade)
+        Visible: =false
+        X: =40
+        Y: =40
+        ZIndex: =3
 
