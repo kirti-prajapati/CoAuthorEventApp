@@ -1,0 +1,24 @@
+Dashboard As screen:
+
+    TextInput1 As text:
+        Default: =""
+        Height: =78
+        Width: =1365
+        Y: =3
+        ZIndex: =1
+
+    Image2 As image:
+        Height: =78
+        Image: ='company logo'
+        Width: =226
+        Y: =3
+        ZIndex: =2
+
+    Label2 As label:
+        Height: =78
+        Text: ="Text"
+        Width: =588
+        X: =307
+        Y: =3
+        ZIndex: =3
+
