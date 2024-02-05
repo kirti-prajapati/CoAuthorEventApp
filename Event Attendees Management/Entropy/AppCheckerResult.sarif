@@ -128,6 +128,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.photo_2024-02-05_12-15-49"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.photo_2024-02-05_12-15-49",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "photo_2024-02-05_12-15-49",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 0
         }
       ],
       "tool": {
