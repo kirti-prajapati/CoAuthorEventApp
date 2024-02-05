@@ -1,26 +1,117 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Dashboard": 4,
+    "Gallery5": 33,
+    "galleryTemplate5": 34,
+    "Host": 3,
+    "Icon1": 11,
+    "Image1": 7,
+    "Image5": 35,
+    "Label1": 8,
+    "Label2": 10,
+    "Label3": 36,
+    "Splash": 5,
+    "Success": 9,
+    "Timer1": 6
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 12:35:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "4964089": "0001.jpg",
+    "company logo": "0002.jpg",
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "481fe12b-029c-4d77-b03f-e5c4db6abb59.jpg",
+    "photo_2024-02-05_12-13-09": "0004.jpg",
+    "photo_2024-02-05_12-14-06": "0005.jpg",
+    "photo_2024-02-05_12-15-49": "0006.jpg",
+    "photo_2024-02-05_12-17-19-transformed": "23e19974-10ef-4abb-82f2-f7232659c2bd.png"
+  },
+  "LocalResourceRootPaths": {
+    "4964089": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A29%3A53Z&ske=2024-02-06T11%3A44%3A53Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A44%3A53Z&sr=b&sp=r&sig=jgMHUnWhXqjMsIqxkQWo5dhePYspSAt4%2BrZE9uF6idA%3D",
+    "company logo": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A29%3A54Z&ske=2024-02-06T11%3A44%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A44%3A54Z&sr=b&sp=r&sig=MenBpF%2BhH%2FRhC0MxGDHRwvmBeNTUiCnsOHstREfx77c%3D",
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/2ed097b4-b4bf-4d47-924a-54a6e5d8f138.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A43%3A08Z&ske=2024-02-06T11%3A58%3A08Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A58%3A08Z&sr=b&sp=r&sig=MFlCLK3Rhw%2FjM6YmG%2FatGuoiJpRIyralmapsZUQkhek%3D",
+    "photo_2024-02-05_12-13-09": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/Assets0Images00004.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A29%3A54Z&ske=2024-02-06T11%3A44%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A44%3A54Z&sr=b&sp=r&sig=nKPXHfTizHd2%2BtrXI%2B1RX8I9KckGRSoodpn1hd5k2i8%3D",
+    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/Assets0Images00005.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A29%3A54Z&ske=2024-02-06T11%3A44%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A44%3A54Z&sr=b&sp=r&sig=ihaYwuJJCflP0IQaIWWwt1o1sAsjzgY2YldSSm0huiA%3D",
+    "photo_2024-02-05_12-15-49": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/Assets0Images00006.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T11%3A29%3A54Z&ske=2024-02-06T11%3A44%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T11%3A44%3A54Z&sr=b&sp=r&sig=XZ5iVZrZx%2FBQFgcr9zMqgwmHPCz9g2MlnHMdKKkWwtI%3D",
+    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/793594cb-9b78-4ed1-ae73-547d6dfd9dfe-1/resource/5794f4e5-b923-42d6-91be-35fca49e0381.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T12%3A03%3A32Z&ske=2024-02-06T12%3A18%3A32Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T12%3A18%3A32Z&sr=b&sp=r&sig=uJfU7at1K4bVVKnTvU38JNUe1YH06X5H4askYUw%2F9mg%3D"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 4,
+    "image": 1,
+    "label": 2,
+    "timer": 3
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Dashboard": {},
+    "Gallery5": {},
+    "galleryTemplate5": {},
+    "Host": {},
+    "Icon1": {},
+    "Image1": {},
+    "Image5": {},
+    "Label1": {},
+    "Label2": {},
+    "Label3": {},
+    "Splash": {},
+    "Success": {},
+    "Timer1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Dashboard": 3,
+    "Gallery5": 3,
+    "galleryTemplate5": 4,
+    "Host": 0,
+    "Icon1": 7,
+    "Image1": 1,
+    "Image5": 5,
+    "Label1": 2,
+    "Label2": 8,
+    "Label3": 6,
+    "Splash": 4,
+    "Success": 8,
+    "Timer1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-4964089": 1,
+    "Image-company logo": 2,
+    "Image-milad-fakurian-GJKx5lhwU3M-unsplash (1)": 3,
+    "Image-photo_2024-02-05_12-13-09": 4,
+    "Image-photo_2024-02-05_12-14-06": 5,
+    "Image-photo_2024-02-05_12-15-49": 6,
+    "Image-photo_2024-02-05_12-17-19-transformed": 7,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.018271,
+    "ControlCount": {
+      "icon": 1,
+      "image": 1,
+      "label": 2,
+      "screen": 3,
+      "timer": 1
+    },
+    "DeserializationLoadTime": 0.7180009
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

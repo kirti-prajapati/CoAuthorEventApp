@@ -1,2 +1,32 @@
 Dashboard As screen:
+    BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
+    ImagePosition: =ImagePosition.Fill
+
+    Gallery5 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =107
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1366
+        ZIndex: =1
+
+    Image5 As image:
+        Height: =107
+        Image: ='photo_2024-02-05_12-17-19-transformed'
+        Width: =217
+        ZIndex: =2
+
+    Label3 As label:
+        Color: =RGBA(102, 113, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =107
+        Size: =28
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Underline: =true
+        Width: =947
+        X: =258
+        ZIndex: =3
 
