@@ -1,0 +1,27 @@
+Screen1 As screen:
+    BackgroundImage: ='4964089'
+    ImagePosition: =ImagePosition.Fill
+
+    Image1 As image:
+        Height: =198
+        Image: ='photo_2024-02-05_12-17-19-transformed'
+        Width: =527
+        X: =400
+        Y: =284
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        AutoHeight: =true
+        Color: =RGBA(125, 130, 117, 1)
+        Fill: =RGBA(41, 44, 99, 0)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =32
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Width: =1147
+        X: =90
+        Y: =482
+        ZIndex: =2
+
