@@ -84,3 +84,9 @@
                     Text: ="Button"
                     ZIndex: =1
 
+    Button2 As button:
+        Text: ="Button"
+        X: =40
+        Y: =40
+        ZIndex: =2
+
