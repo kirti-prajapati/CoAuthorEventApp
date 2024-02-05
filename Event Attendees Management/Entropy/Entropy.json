@@ -12,7 +12,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 10:01:55",
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 10:13:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -58,10 +58,10 @@
     "App": 0,
     "Dashboard": 3,
     "Host": 0,
-    "Image1": 6,
-    "Label1": 7,
+    "Image1": 1,
+    "Label1": 2,
     "Screen1": 4,
-    "Timer1": 5
+    "Timer1": 0
   },
   "ResourcesJsonIndices": {
     "Image-4964089": 1,
