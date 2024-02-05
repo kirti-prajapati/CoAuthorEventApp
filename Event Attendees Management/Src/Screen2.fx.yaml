@@ -92,3 +92,9 @@
         Y: =256
         ZIndex: =3
 
+    Label4 As label:
+        Text: ="Text"
+        X: =648
+        Y: =256
+        ZIndex: =4
+
