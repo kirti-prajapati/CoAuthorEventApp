@@ -133,8 +133,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Dashboard",
     "Splash",
+    "Dashboard",
     "Success"
   ]
 }
