@@ -26,10 +26,8 @@ Screen1 As screen:
         ZIndex: =2
 
     Label2 As label:
-        Height: =71
-        Text: ="Text new control added "
-        Width: =525
-        X: =308
-        Y: =132
+        Text: ="Event management "
+        X: =560
+        Y: =284
         ZIndex: =3
 
