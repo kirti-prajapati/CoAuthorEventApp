@@ -3,6 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Dashboard": 8,
     "Host": 3,
     "Image1": 5,
     "Label1": 6,
@@ -11,7 +12,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 09:46:25",
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 09:48:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -42,6 +43,7 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Dashboard": {},
     "Host": {},
     "Image1": {},
     "Label1": {},
@@ -52,9 +54,10 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Dashboard": 0,
     "Host": 0,
-    "Image1": 4,
-    "Label1": 5,
+    "Image1": 1,
+    "Label1": 2,
     "Screen1": 3,
     "Timer1": 0
   },
