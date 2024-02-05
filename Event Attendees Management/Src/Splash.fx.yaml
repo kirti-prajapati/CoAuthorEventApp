@@ -6,8 +6,22 @@ Splash As screen:
         AutoPause: =false
         AutoStart: =true
         Duration: =5000
+        OnTimerEnd: =Navigate(Dashboard,ScreenTransition.Fade)
         Visible: =false
         X: =40
         Y: =40
         ZIndex: =3
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(109, 49, 162, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =33
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Width: =1150
+        X: =90
+        Y: =479
+        ZIndex: =5
 
