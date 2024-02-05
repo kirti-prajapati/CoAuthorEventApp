@@ -158,36 +158,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.photo_2024-02-05_12-17-19-transformed"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.photo_2024-02-05_12-17-19-transformed",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "photo_2024-02-05_12-17-19-transformed",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 0
         }
       ],
       "tool": {
