@@ -1,80 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Host": 3,
-    "Image1": 5,
-    "Label1": 6,
-    "Label2": 7,
-    "Screen1": 4
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 08:53:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "4964089": "0001.jpg",
-    "photo_2024-02-05_12-13-09": "0002.jpg",
-    "photo_2024-02-05_12-14-06": "0003.jpg",
-    "photo_2024-02-05_12-15-49": "0004.jpg",
-    "photo_2024-02-05_12-17-19-transformed": "0005.png"
-  },
-  "LocalResourceRootPaths": {
-    "4964089": "https://docserverpwaprodwus.blob.core.windows.net/511e9e48-7900-4f76-a30a-88e22acf1a21-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T08%3A52%3A25Z&ske=2024-02-06T09%3A07%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T09%3A07%3A25Z&sr=b&sp=r&sig=KMUh9Mlzm3EUhZFuK5tOPAFBIhZROp7rPhrC29M0JJ8%3D",
-    "photo_2024-02-05_12-13-09": "https://docserverpwaprodwus.blob.core.windows.net/511e9e48-7900-4f76-a30a-88e22acf1a21-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T08%3A52%3A25Z&ske=2024-02-06T09%3A07%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T09%3A07%3A25Z&sr=b&sp=r&sig=ujf%2BqsvGSKwWzPlnbFJgOinDJbZN0s2uRCKTjY8yS2o%3D",
-    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/511e9e48-7900-4f76-a30a-88e22acf1a21-1/resource/Assets0Images00003.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T08%3A52%3A25Z&ske=2024-02-06T09%3A07%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T09%3A07%3A25Z&sr=b&sp=r&sig=L8BmMZtnafdj5isGFvJ64yZqyWPnieTqQoWnghMtnjA%3D",
-    "photo_2024-02-05_12-15-49": "https://docserverpwaprodwus.blob.core.windows.net/511e9e48-7900-4f76-a30a-88e22acf1a21-1/resource/Assets0Images00004.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T08%3A52%3A25Z&ske=2024-02-06T09%3A07%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T09%3A07%3A25Z&sr=b&sp=r&sig=hgVUqN0vrcxRZY7yyO3JG0wzsHzdDryCBPEBAgcntxE%3D",
-    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/511e9e48-7900-4f76-a30a-88e22acf1a21-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-05T08%3A52%3A25Z&ske=2024-02-06T09%3A07%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-06T09%3A07%3A25Z&sr=b&sp=r&sig=4hXpFwmTathubpv7vE5wx98FrFAw0xSiDuxHrynBoXA%3D"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "image": 1,
-    "label": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Host": {},
-    "Image1": {},
-    "Label1": {},
-    "Label2": {},
-    "Screen1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Host": 0,
-    "Image1": 4,
-    "Label1": 5,
-    "Label2": 0,
-    "Screen1": 3
-  },
-  "ResourcesJsonIndices": {
-    "Image-4964089": 1,
-    "Image-photo_2024-02-05_12-13-09": 2,
-    "Image-photo_2024-02-05_12-14-06": 3,
-    "Image-photo_2024-02-05_12-15-49": 4,
-    "Image-photo_2024-02-05_12-17-19-transformed": 5,
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0117711,
-    "ControlCount": {
-      "image": 1,
-      "label": 1,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.5116721
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
