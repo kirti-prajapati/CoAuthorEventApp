@@ -93,7 +93,7 @@
         ZIndex: =3
 
     Label4 As label:
-        Text: ="Text"
+        Text: ="nxjs"
         X: =648
         Y: =256
         ZIndex: =4
