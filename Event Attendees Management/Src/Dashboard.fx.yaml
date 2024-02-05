@@ -13,10 +13,24 @@ Dashboard As screen:
         Width: =1366
         ZIndex: =1
 
+    TextInput1 As text:
+        Default: =""
+        Height: =82
+        Width: =1366
+        ZIndex: =1
+
     Image5 As image:
         Height: =107
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =217
+        ZIndex: =2
+
+    TextInput2 As text:
+        Default: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Height: =61
+        Width: =646
+        X: =332
+        Y: =21
         ZIndex: =2
 
     Label3 As label:
@@ -29,4 +43,17 @@ Dashboard As screen:
         Width: =947
         X: =258
         ZIndex: =3
+
+    Image1 As image:
+        Height: =81
+        Image: ='company logo'
+        Width: =232
+        Y: =1
+        ZIndex: =3
+
+    Button2 As button:
+        Text: ="Registration"
+        X: =1100
+        Y: =31
+        ZIndex: =4
 
