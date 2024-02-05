@@ -3,6 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Button1": 8,
     "Dashboard": 4,
     "Host": 3,
     "Splash": 5,
@@ -11,7 +12,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 11:00:20",
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 11:01:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -40,10 +41,12 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "button": 1,
     "timer": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Button1": {},
     "Dashboard": {},
     "Host": {},
     "Splash": {},
@@ -54,6 +57,7 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Button1": 0,
     "Dashboard": 3,
     "Host": 0,
     "Splash": 4,
