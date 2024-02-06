@@ -98,3 +98,9 @@ Dashboard As screen:
         Y: =312
         ZIndex: =2
 
+    TextInput2 As text:
+        Default: ="Text input"
+        X: =270
+        Y: =440
+        ZIndex: =3
+
