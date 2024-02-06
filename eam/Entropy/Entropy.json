@@ -1,26 +1,86 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 5,
+    "Button2": 10,
+    "Dashboard": 4,
+    "Host": 3,
+    "Image1": 8,
+    "Label1": 11,
+    "Splash": 7,
+    "Success": 9,
+    "TextInput1": 6
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 05:33:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "photo_2024-02-05_12-14-06": "0001.jpg",
+    "photo_2024-02-05_12-17-19-transformed": "0002.png"
+  },
+  "LocalResourceRootPaths": {
+    "photo_2024-02-05_12-14-06": "https://docserverpwaprodeus.blob.core.windows.net/34805c9b-d812-41c5-a90d-6407f7508877-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A32%3A14Z&ske=2024-02-07T05%3A47%3A14Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A47%3A14Z&sr=b&sp=r&sig=27gjOc5t2qJLKwwsAUK9C5ijs0H%2BiTxaJfF6JZnUt%2FI%3D",
+    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodeus.blob.core.windows.net/34805c9b-d812-41c5-a90d-6407f7508877-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A32%3A14Z&ske=2024-02-07T05%3A47%3A14Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A47%3A14Z&sr=b&sp=r&sig=nA22kHtdCVK2viimlExGyF4oTO%2FTXyk5o7lIGu%2Fch1g%3D"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "button": 0,
+    "image": 2,
+    "label": 3,
+    "text": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Button2": {},
+    "Dashboard": {},
+    "Host": {},
+    "Image1": {},
+    "Label1": {},
+    "Splash": {},
+    "Success": {},
+    "TextInput1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 4,
+    "Button2": 0,
+    "Dashboard": 3,
+    "Host": 0,
+    "Image1": 7,
+    "Label1": 0,
+    "Splash": 6,
+    "Success": 8,
+    "TextInput1": 5
+  },
+  "ResourcesJsonIndices": {
+    "Image-photo_2024-02-05_12-14-06": 1,
+    "Image-photo_2024-02-05_12-17-19-transformed": 2,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0598093,
+    "ControlCount": {
+      "button": 1,
+      "image": 1,
+      "screen": 3,
+      "text": 1
+    },
+    "DeserializationLoadTime": 1.1967508
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

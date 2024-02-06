@@ -1,2 +1,14 @@
 Success As screen:
 
+    Button2 As button:
+        Text: ="Button"
+        X: =176
+        Y: =224
+        ZIndex: =1
+
+    Label1 As label:
+        Text: ="Hello"
+        X: =614
+        Y: =300
+        ZIndex: =2
+
