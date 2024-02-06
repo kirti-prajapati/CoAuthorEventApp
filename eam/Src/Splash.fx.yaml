@@ -3,11 +3,11 @@ Splash As screen:
     ImagePosition: =ImagePosition.Fill
 
     Image1 As image:
-        Height: =285
+        Height: =204
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =547
-        X: =416
-        Y: =230
+        X: =435
+        Y: =264
         ZIndex: =1
 
     Timer1 As timer:
@@ -19,4 +19,16 @@ Splash As screen:
         X: =40
         Y: =40
         ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(77, 43, 97, 1)
+        Font: =Font.Georgia
+        Height: =66
+        Size: =36
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Width: =1143
+        X: =137
+        Y: =468
+        ZIndex: =3
 
