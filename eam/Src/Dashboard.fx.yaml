@@ -145,3 +145,8 @@ Dashboard As screen:
         Y: =264
         ZIndex: =13
 
+    HtmlText2 As htmlViewer:
+        X: =40
+        Y: =40
+        ZIndex: =14
+
