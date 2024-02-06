@@ -912,6 +912,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dashboard",
+                "type": "Dashboard.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dashboard",
+                "type": "Dashboard.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Dashboard.HeaderGallery.AccessibleLabel"
                 }
               ],
@@ -972,19 +1032,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.RecordGallery.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.RecordGallery.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.RecordGallery"
+                "type": "Dashboard.Form1.Title_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -1002,49 +1062,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.RecordGallery.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.RecordGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.RecordGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Dashboard.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.Form1.Title_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Form1.Title_DataCard1.DataCardValue1"
+                "type": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10"
               }
             }
           ],
@@ -1105,6 +1135,36 @@
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
                 "type": "Dashboard.Form1.'Last Name_DataCard1'.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dashboard",
+                "type": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9"
               }
             }
           ],
@@ -1272,19 +1332,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.RecordGallery.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.RecordGallery.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Form1.'Contact Number_DataCard1'.DataCardValue9"
+                "type": "Dashboard.RecordGallery"
               }
             }
           ],
@@ -1302,79 +1362,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.RecordGallery.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Form1.Attachments_DataCard1.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex",
+                  "fullyQualifiedName": "Dashboard.RecordGallery.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Icon1"
+                "type": "Dashboard.RecordGallery"
               }
             }
           ],

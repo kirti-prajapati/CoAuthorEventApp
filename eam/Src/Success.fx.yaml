@@ -39,3 +39,12 @@ Success As screen:
         Y: =211
         ZIndex: =4
 
+    Icon4 As icon.CheckBadge:
+        Color: =RGBA(127, 178, 57, 1)
+        Height: =122
+        Icon: =Icon.CheckBadge
+        Width: =116
+        X: =630
+        Y: =309
+        ZIndex: =5
+

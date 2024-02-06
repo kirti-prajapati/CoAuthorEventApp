@@ -625,9 +625,12 @@ Dashboard As screen:
                 DataCardValue5 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     Items: =Choices([@'Event Attendees Management'].Professions)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Event Attendees Management'.Professions,DataCardValue5.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =(Parent.Width - 60) * 0.6
