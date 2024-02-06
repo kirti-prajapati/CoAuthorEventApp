@@ -3,6 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Button1": 27,
     "Dashboard": 12,
     "Gallery2": 13,
     "galleryTemplate2": 14,
@@ -20,11 +21,14 @@
     "Rectangle1": 10,
     "Splash": 4,
     "Success": 6,
-    "TextInput1": 21
+    "TextInput1": 21,
+    "TextInput1_1": 23,
+    "TextInput1_2": 25,
+    "TextInput1_3": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 09:29:53",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:50:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -57,9 +61,10 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "button": 6,
     "gallery": 4,
     "htmlViewer": 1,
-    "icon": 6,
+    "icon": 7,
     "image": 0,
     "label": 3,
     "rectangle": 2,
@@ -67,6 +72,7 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Button1": {},
     "Dashboard": {},
     "Gallery2": {},
     "galleryTemplate2": {},
@@ -84,30 +90,37 @@
     "Rectangle1": {},
     "Splash": {},
     "Success": {},
-    "TextInput1": {}
+    "TextInput1": {},
+    "TextInput1_1": {},
+    "TextInput1_2": {},
+    "TextInput1_3": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Button1": 11,
     "Dashboard": 3,
     "Gallery2": 1,
     "galleryTemplate2": 2,
     "Host": 0,
-    "HtmlText1": 10,
-    "Icon2": 8,
+    "HtmlText1": 14,
+    "Icon2": 12,
     "Image1": 0,
-    "Image2": 11,
+    "Image2": 15,
     "Image3": 3,
     "Image3_1": 6,
-    "Image4": 9,
-    "Label2": 13,
+    "Image4": 13,
+    "Label2": 17,
     "Label3": 4,
     "Label4": 5,
-    "Rectangle1": 12,
+    "Rectangle1": 16,
     "Splash": 10,
     "Success": 12,
-    "TextInput1": 7
+    "TextInput1": 7,
+    "TextInput1_1": 8,
+    "TextInput1_2": 9,
+    "TextInput1_3": 10
   },
   "ResourcesJsonIndices": {
     "Image-abstract-background-with-minimalist-design_1048-13338": 5,
@@ -131,7 +144,8 @@
       "image": 5,
       "label": 3,
       "rectangle": 1,
-      "screen": 3
+      "screen": 3,
+      "text": 4
     },
     "DeserializationLoadTime": 1.102191
   },
