@@ -162,7 +162,7 @@ Dashboard As screen:
 
     Label5 As label:
         Height: =82
-        Text: ="Text"
+        Text: ="Registration Form"
         Width: =610
         X: =412
         Y: =141
