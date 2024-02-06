@@ -172,8 +172,8 @@ Dashboard As screen:
 
     Form1 As form:
         DataSource: ='Event Attendees Management'
-        Height: =565
-        Width: =610
+        Height: =588
+        Width: =608
         X: =414
         Y: =201
         ZIndex: =17
@@ -198,10 +198,10 @@ Dashboard As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue1 As text:
@@ -216,9 +216,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey1.X + DataCardKey1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage1 As label:
@@ -253,11 +253,11 @@ Dashboard As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"First_x0020_Name")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =58
             MaxLength: =DataSourceInfo([@'Event Attendees Management'], DataSourceInfo.MaxLength, "First_x0020_Name")
             Required: =false
             Update: =DataCardValue2.Text
-            Width: =203
+            Width: =606
             X: =1
             Y: =0
             ZIndex: =18
@@ -266,10 +266,10 @@ Dashboard As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue2.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue2 As text:
@@ -284,9 +284,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey2.X + DataCardKey2.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage2 As label:
@@ -325,19 +325,19 @@ Dashboard As screen:
             MaxLength: =DataSourceInfo([@'Event Attendees Management'], DataSourceInfo.MaxLength, "Last_x0020_Name")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =203
-            X: =2
-            Y: =0
+            Width: =404
+            X: =0
+            Y: =7
             ZIndex: =18
 
             DataCardKey3 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue3.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue3 As text:
@@ -352,9 +352,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey3.X + DataCardKey3.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage3 As label:
@@ -393,19 +393,19 @@ Dashboard As screen:
             MaxLength: =DataSourceInfo([@'Event Attendees Management'], DataSourceInfo.MaxLength, "Email_x0020_ID")
             Required: =false
             Update: =DataCardValue4.Text
-            Width: =203
+            Width: =404
             X: =0
-            Y: =1
+            Y: =5
             ZIndex: =18
 
             DataCardKey4 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue4.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue4 As text:
@@ -420,9 +420,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey4.X + DataCardKey4.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -460,8 +460,8 @@ Dashboard As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue5.Selected
-            Width: =203
-            X: =1
+            Width: =606
+            X: =0
             Y: =1
             ZIndex: =18
 
@@ -469,10 +469,10 @@ Dashboard As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue5.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue5 As combobox:
@@ -483,9 +483,9 @@ Dashboard As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey5.X + DataCardKey5.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage5 As label:
@@ -524,19 +524,19 @@ Dashboard As screen:
             MaxLength: =DataSourceInfo([@'Event Attendees Management'], DataSourceInfo.MaxLength, "Check_x0020_In_x0020__x0020_Stat")
             Required: =false
             Update: =DataCardValue6.Text
-            Width: =203
-            X: =2
-            Y: =1
+            Width: =404
+            X: =0
+            Y: =3
             ZIndex: =18
 
             DataCardKey6 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue6.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue6 As text:
@@ -551,9 +551,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey6.X + DataCardKey6.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage6 As label:
@@ -592,19 +592,19 @@ Dashboard As screen:
             MaxLength: =DataSourceInfo([@'Event Attendees Management'], DataSourceInfo.MaxLength, "Job_x0020_Title")
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =203
+            Width: =404
             X: =0
-            Y: =2
+            Y: =4
             ZIndex: =18
 
             DataCardKey7 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue7.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue7 As text:
@@ -619,9 +619,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey7.X + DataCardKey7.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage7 As label:
@@ -659,19 +659,19 @@ Dashboard As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue8.Value
-            Width: =203
-            X: =1
-            Y: =2
+            Width: =404
+            X: =0
+            Y: =6
             ZIndex: =18
 
             DataCardKey8 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue8.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue8 As toggleSwitch:
@@ -679,8 +679,8 @@ Dashboard As screen:
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 Tooltip: =Parent.DisplayName
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                X: =Parent.Width  - Self.Width - 30
+                Y: =12
                 ZIndex: =2
 
             ErrorMessage8 As label:
@@ -715,11 +715,11 @@ Dashboard As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Contact_x0020_Number")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =54
             Required: =false
             Update: =Value(DataCardValue9.Text)
-            Width: =203
-            X: =2
+            Width: =404
+            X: =0
             Y: =2
             ZIndex: =18
 
@@ -727,10 +727,10 @@ Dashboard As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue9.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue9 As text:
@@ -745,9 +745,9 @@ Dashboard As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey9.X + DataCardKey9.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage9 As label:
@@ -794,10 +794,10 @@ Dashboard As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue10.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue10 As attachments:
@@ -810,9 +810,9 @@ Dashboard As screen:
                 PaddingRight: =5
                 PaddingTop: =5
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey10.X + DataCardKey10.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage10 As label:
