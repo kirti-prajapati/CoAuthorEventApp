@@ -134,6 +134,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Splash",
+    "Dashboard",
+    "Success"
   ]
 }
