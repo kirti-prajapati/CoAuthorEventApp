@@ -1,2 +1,14 @@
 Success As screen:
+    BackgroundImage: ='elegant-white-background-with-shiny-lines_1017-17580'
+    ImagePosition: =ImagePosition.Stretch
+
+    HtmlText1 As htmlViewer:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =686
+        HtmlText: |-
+            ="<div style=""margin: 12px 10px 8px 10px; width: "&(Self.Width-31)&"px; height: "&(Self.Height-31)&"px; background-color: white; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius:5px""></div>"
+        Width: =729
+        X: =324
+        Y: =34
+        ZIndex: =1
 

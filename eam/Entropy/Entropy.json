@@ -1,26 +1,110 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Dashboard": 4,
+    "Gallery2": 5,
+    "galleryTemplate2": 6,
+    "Host": 3,
+    "HtmlText1": 14,
+    "Image1": 12,
+    "Image3": 7,
+    "Image3_1": 10,
+    "Label3": 8,
+    "Label4": 9,
+    "Splash": 11,
+    "Success": 13
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 07:18:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "abstract-background-with-minimalist-design_1048-13338": "528513a7-d09a-49b0-a264-0791ca24c089.jpg",
+    "background event": "8c908538-1a6f-44a0-a1e9-653386fda7bd.jpg",
+    "elegant-white-background-with-shiny-lines_1017-17580": "9a34505c-24cb-4a93-82da-3c587f7112d7.jpg",
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "0001.jpg",
+    "photo_2024-02-05_12-14-06": "0002.jpg",
+    "photo_2024-02-05_12-17-19-transformed": "0003.png"
+  },
+  "LocalResourceRootPaths": {
+    "abstract-background-with-minimalist-design_1048-13338": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/466ca102-5961-467a-9c93-b4a416c761b7.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A12%3A04Z&ske=2024-02-07T07%3A27%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A27%3A04Z&sr=b&sp=r&sig=HKwy%2BQnyO%2FWrIpCbOpu34lgCfDbl3QwGte4i%2BA2aNvo%3D",
+    "background event": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/fb525c29-b9e7-43cf-a76a-d68a9f402886.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A11%3A49Z&ske=2024-02-07T07%3A26%3A49Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A26%3A49Z&sr=b&sp=r&sig=yWOWpKGL6XgdQ6XgZTj7RjCd0BLcCr159NDAdXUY1P4%3D",
+    "elegant-white-background-with-shiny-lines_1017-17580": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/1add39da-4557-4c58-b0bf-cba5c8840325.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A12%3A17Z&ske=2024-02-07T07%3A27%3A17Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A27%3A17Z&sr=b&sp=r&sig=%2FbsMCBPO9nIApCRyDAOimZRLY08ys2CegyMVFTy1K8Y%3D",
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A09%3A22Z&ske=2024-02-07T07%3A24%3A22Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A24%3A22Z&sr=b&sp=r&sig=c%2FI74gpCpDpSuYJqR8SWWf2eREbHO2rbnEQ4HRidFWk%3D",
+    "photo_2024-02-05_12-14-06": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A09%3A22Z&ske=2024-02-07T07%3A24%3A22Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A24%3A22Z&sr=b&sp=r&sig=JIuYCyTBuUPgfxFzSUSDIOrX6go7rnGWj3dkso2Np%2FM%3D",
+    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodeus.blob.core.windows.net/f9dcfbc9-2e21-4986-b447-47279c9ff5ac-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T07%3A09%3A22Z&ske=2024-02-07T07%3A24%3A22Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A24%3A22Z&sr=b&sp=r&sig=WrJFv1uBZ3fca96UkPGlt1KBR7iNXI8lssY3Tu9bqCw%3D"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "htmlViewer": 3,
+    "image": 1,
+    "label": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Dashboard": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
+    "Host": {},
+    "HtmlText1": {},
+    "Image1": {},
+    "Image3": {},
+    "Image3_1": {},
+    "Label3": {},
+    "Label4": {},
+    "Splash": {},
+    "Success": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Dashboard": 3,
+    "Gallery2": 1,
+    "galleryTemplate2": 2,
+    "Host": 0,
+    "HtmlText1": 7,
+    "Image1": 0,
+    "Image3": 3,
+    "Image3_1": 6,
+    "Label3": 4,
+    "Label4": 5,
+    "Splash": 10,
+    "Success": 12
+  },
+  "ResourcesJsonIndices": {
+    "Image-abstract-background-with-minimalist-design_1048-13338": 5,
+    "Image-background event": 4,
+    "Image-elegant-white-background-with-shiny-lines_1017-17580": 6,
+    "Image-milad-fakurian-GJKx5lhwU3M-unsplash (1)": 1,
+    "Image-photo_2024-02-05_12-14-06": 2,
+    "Image-photo_2024-02-05_12-17-19-transformed": 3,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0765036,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "image": 3,
+      "label": 2,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 1.2148487
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
