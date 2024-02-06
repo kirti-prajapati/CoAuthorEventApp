@@ -1,96 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Host": 3,
-    "Icon1": 9,
-    "Label1": 6,
-    "Label2": 8,
-    "Splash": 4,
-    "Success": 7,
-    "Timer1": 5
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 04:47:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "4964089": "0001.jpg",
-    "company logo": "0002.jpg",
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "0003.jpg",
-    "photo_2024-02-05_12-13-09": "0004.jpg",
-    "photo_2024-02-05_12-14-06": "0005.jpg",
-    "photo_2024-02-05_12-15-49": "0006.jpg",
-    "photo_2024-02-05_12-17-19-transformed": "0007.png"
-  },
-  "LocalResourceRootPaths": {
-    "4964089": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=WUzwq4vQ4a0%2FWKpXFb6eFMo7qU4bIbZaCJAnYEiYBWA%3D",
-    "company logo": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=GiO92jnGwVcrIMaoYvY4wSnRcZtYPKZqwifA0p2seVs%3D",
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00003.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=RLXSjgTNS7833AJS8de%2BSEewtZ8DNtP%2BKJvRCXm%2Bhpw%3D",
-    "photo_2024-02-05_12-13-09": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00004.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=2eGNctlWB%2BDTkg2GDObawyHgY3vEETwuMBUzFCeLCQ8%3D",
-    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00005.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=jSV0ot357EB0O1%2BZ34F0Uwz0njhkHTfNvSulcItfxS0%3D",
-    "photo_2024-02-05_12-15-49": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00006.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=gjI%2BN5DXZFpHrXEse9BJcKacQWTX5A4vMHkNz5VenzY%3D",
-    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/3061cc54-ce77-401b-9c21-c09cadca1900-1/resource/Assets0Images00007.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T04%3A25%3A04Z&ske=2024-02-07T04%3A40%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T04%3A40%3A04Z&sr=b&sp=r&sig=bT8KI2lQsSMNFo8MBp9UCq95MYbJJlml8ZrEDWqCohs%3D"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "icon": 2,
-    "label": 1,
-    "timer": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Host": {},
-    "Icon1": {},
-    "Label1": {},
-    "Label2": {},
-    "Splash": {},
-    "Success": {},
-    "Timer1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Host": 0,
-    "Icon1": 2,
-    "Label1": 1,
-    "Label2": 3,
-    "Splash": 3,
-    "Success": 6,
-    "Timer1": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-4964089": 1,
-    "Image-company logo": 2,
-    "Image-milad-fakurian-GJKx5lhwU3M-unsplash (1)": 3,
-    "Image-photo_2024-02-05_12-13-09": 4,
-    "Image-photo_2024-02-05_12-14-06": 5,
-    "Image-photo_2024-02-05_12-15-49": 6,
-    "Image-photo_2024-02-05_12-17-19-transformed": 7,
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0771615,
-    "ControlCount": {
-      "icon": 1,
-      "label": 2,
-      "screen": 2,
-      "timer": 1
-    },
-    "DeserializationLoadTime": 0.970961
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
