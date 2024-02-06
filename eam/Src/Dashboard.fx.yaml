@@ -104,3 +104,8 @@ Dashboard As screen:
         Y: =440
         ZIndex: =3
 
+    DatePicker1 As datepicker:
+        X: =610
+        Y: =312
+        ZIndex: =4
+
