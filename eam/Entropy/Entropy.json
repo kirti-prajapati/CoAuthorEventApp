@@ -3,28 +3,28 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Dashboard": 12,
-    "Gallery2": 13,
-    "galleryTemplate2": 14,
+    "Dashboard": 4,
+    "Gallery2": 5,
+    "galleryTemplate2": 6,
     "Host": 3,
-    "HtmlText1": 9,
-    "Icon2": 22,
-    "Image1": 5,
-    "Image2": 8,
-    "Image3": 15,
-    "Image3_1": 18,
-    "Image4": 7,
-    "Label2": 11,
-    "Label3": 16,
-    "Label4": 17,
-    "Rectangle1": 10,
-    "Splash": 4,
-    "Success": 6,
-    "TextInput1": 21
+    "HtmlText1": 17,
+    "Icon2": 12,
+    "Image1": 14,
+    "Image2": 18,
+    "Image3": 7,
+    "Image3_1": 10,
+    "Image4": 16,
+    "Label2": 20,
+    "Label3": 8,
+    "Label4": 9,
+    "Rectangle1": 19,
+    "Splash": 13,
+    "Success": 15,
+    "TextInput1": 11
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 09:29:53",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:13:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -39,14 +39,14 @@
     "photo_2024-02-05_12-17-19-transformed": "0003.png"
   },
   "LocalResourceRootPaths": {
-    "abstract-background-with-minimalist-design_1048-13338": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images0528513a7-d09a-49b0-a264-0791ca24c089.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=UBuL2pXNMMdtyzo2XE5xEKJltWp133PuQ35s6jfjDcQ%3D",
-    "background event": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images08c908538-1a6f-44a0-a1e9-653386fda7bd.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=T%2FDvAnIh%2FooeOZ%2Bbnd1E43%2BnHEwx76zaM6weCPotLGI%3D",
-    "cross-removebg-preview": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images0bde404d2-2431-4840-8dc9-78aecd3de489.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=tERjsJKybyRwdXktzKpqkWeVqen3SshhRAJEzm041pM%3D",
-    "elegant-white-background-with-shiny-lines_1017-17580": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images09a34505c-24cb-4a93-82da-3c587f7112d7.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=bHDJX4mxoPpSVd%2FimY0TORPncwAiVXC2XojGXRgOm5w%3D",
-    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images0df6794f3-75aa-49ec-a7be-beee6e23bd1f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=579Th2FDDiGKn%2FrxQm%2FvoGmm2Zaq7xwFtsmNyNmIAvY%3D",
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=P6I8L7hvS8NdxwwtRMDjNtRR8UoIOBh%2Fkjh%2F%2BQuBpiE%3D",
-    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=i6aFcmfAJzZaBWv7HOXE6wajdJQE9FpKokhg6T3EhtQ%3D",
-    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/393f4daa-53cd-4e91-9adc-1a90fa5f4ba7-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T08%3A55%3A21Z&ske=2024-02-07T09%3A10%3A21Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T09%3A10%3A21Z&sr=b&sp=r&sig=onMDHUQoA%2Bixblb7LkfE%2B8fOb%2BmZJlkhFXQQdfbOUuU%3D"
+    "abstract-background-with-minimalist-design_1048-13338": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images0528513a7-d09a-49b0-a264-0791ca24c089.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=rT0LQGeHhIoYEkJuhqD7Odf7BB8xJZANu9YVUpz0vWo%3D",
+    "background event": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images08c908538-1a6f-44a0-a1e9-653386fda7bd.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=c9beGPsAiTIceWgENCHIoEBGWoF%2B9xmWlEVF4sb1zYU%3D",
+    "cross-removebg-preview": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images0bde404d2-2431-4840-8dc9-78aecd3de489.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=vFmQ%2Bo3rrSheQ2VWn0nGGwxN694dHYsytveRFQkaTEs%3D",
+    "elegant-white-background-with-shiny-lines_1017-17580": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images09a34505c-24cb-4a93-82da-3c587f7112d7.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=gwzpWDduNTCSt9lZoea6I90f4mrHdJofB8kEgaXFh%2BQ%3D",
+    "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images0df6794f3-75aa-49ec-a7be-beee6e23bd1f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=CYH6igCs9AsMlc4%2BbzKGZUZbQlH4BPrjVRdOMW%2BYl7g%3D",
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=68%2BFD%2BDthu5TTxRpQM29nTKeBJSjUkPilNyDp9KtDZc%3D",
+    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=42tNlGlf6mxxG%2BUmmOeYZlMzx%2BN4T2l78gEcStT3eZ4%3D",
+    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/da5aec1b-9099-480b-8d93-cdfbae72651c-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T10%3A13%3A16Z&ske=2024-02-07T10%3A28%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T10%3A28%3A16Z&sr=b&sp=r&sig=jq893j2FwFpP3BPd6T0%2BTxVFo1n65qLLtbpT%2FUDEWHM%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -57,13 +57,13 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "gallery": 4,
-    "htmlViewer": 1,
-    "icon": 6,
-    "image": 0,
-    "label": 3,
-    "rectangle": 2,
-    "text": 5
+    "gallery": 0,
+    "htmlViewer": 5,
+    "icon": 4,
+    "image": 1,
+    "label": 2,
+    "rectangle": 6,
+    "text": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -123,17 +123,19 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1012656,
+    "AnalysisLoadTime": 0.1107507,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
       "htmlViewer": 1,
+      "icon": 1,
       "image": 5,
       "label": 3,
       "rectangle": 1,
-      "screen": 3
+      "screen": 3,
+      "text": 1
     },
-    "DeserializationLoadTime": 1.102191
+    "DeserializationLoadTime": 0.980176
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
