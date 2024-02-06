@@ -3,28 +3,28 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 5,
-    "Button2": 18,
-    "Dashboard": 4,
-    "Gallery1": 6,
-    "galleryTemplate1": 7,
+    "Button1": 11,
+    "Button2": 7,
+    "Dashboard": 10,
+    "Gallery1": 12,
+    "galleryTemplate1": 13,
     "Host": 3,
-    "Image1": 16,
-    "Image2": 8,
-    "Label1": 20,
-    "Label2": 19,
-    "NextArrow1": 11,
-    "Rectangle1": 13,
-    "Separator1": 12,
-    "Splash": 15,
-    "Subtitle1": 10,
-    "Success": 17,
-    "TextInput1": 14,
-    "Title1": 9
+    "Image1": 5,
+    "Image2": 14,
+    "Label1": 9,
+    "Label2": 8,
+    "NextArrow1": 17,
+    "Rectangle1": 19,
+    "Separator1": 18,
+    "Splash": 4,
+    "Subtitle1": 16,
+    "Success": 6,
+    "TextInput1": 20,
+    "Title1": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 05:38:26",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 05:40:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -34,9 +34,9 @@
     "photo_2024-02-05_12-17-19-transformed": "0003.png"
   },
   "LocalResourceRootPaths": {
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/a9f751db-1be1-4b27-8c07-7227b6f742c0-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A38%3A00Z&ske=2024-02-07T05%3A53%3A00Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A53%3A00Z&sr=b&sp=r&sig=OULhvBLG79A%2FJvzrHS2yeCRDGOFYykYXy%2BadMHTQMqk%3D",
-    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/a9f751db-1be1-4b27-8c07-7227b6f742c0-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A38%3A00Z&ske=2024-02-07T05%3A53%3A00Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A53%3A00Z&sr=b&sp=r&sig=Z%2Ff6ELliepoiv%2B9n8QuQtNZnH7xnZLV3LFY3w4MLZeM%3D",
-    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/a9f751db-1be1-4b27-8c07-7227b6f742c0-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A38%3A00Z&ske=2024-02-07T05%3A53%3A00Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A53%3A00Z&sr=b&sp=r&sig=sjyByBqggroVHh9g%2F7ysi0ulLIh1TBUjdMLyb5mIFRE%3D"
+    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodwus.blob.core.windows.net/3e2c866a-52f3-48c0-a460-527d1f62c441-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A39%3A57Z&ske=2024-02-07T05%3A54%3A57Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A54%3A57Z&sr=b&sp=r&sig=WzsDcOvc5Dl3SHnBiD36SzV2bM9rESvUmWis%2F%2FmptBY%3D",
+    "photo_2024-02-05_12-14-06": "https://docserverpwaprodwus.blob.core.windows.net/3e2c866a-52f3-48c0-a460-527d1f62c441-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A39%3A57Z&ske=2024-02-07T05%3A54%3A57Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A54%3A57Z&sr=b&sp=r&sig=WIMjVIe9SVTV5vUs6ZAeiqAwwSmh8pFRFcYTezqXw00%3D",
+    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodwus.blob.core.windows.net/3e2c866a-52f3-48c0-a460-527d1f62c441-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T05%3A39%3A57Z&ske=2024-02-07T05%3A54%3A57Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T05%3A54%3A57Z&sr=b&sp=r&sig=6hwFlgDfRe2WtEnU9513deqq%2FAAaTQ3GlGaYarvOjjU%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -47,11 +47,11 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0,
-    "gallery": 1,
+    "button": 1,
+    "gallery": 3,
     "icon": 4,
-    "image": 2,
-    "label": 3,
+    "image": 0,
+    "label": 2,
     "rectangle": 5,
     "text": 6
   },
@@ -108,7 +108,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1207096,
+    "AnalysisLoadTime": 0.13374,
     "ControlCount": {
       "button": 2,
       "gallery": 1,
@@ -120,7 +120,7 @@
       "screen": 3,
       "text": 1
     },
-    "DeserializationLoadTime": 0.739502
+    "DeserializationLoadTime": 0.7484479
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
