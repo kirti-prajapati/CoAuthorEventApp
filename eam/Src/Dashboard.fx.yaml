@@ -62,12 +62,12 @@ Dashboard As screen:
         ZIndex: =6
 
     Icon2 As icon.Search:
-        Color: =RGBA(166, 166, 166, 1)
-        Height: =54
+        Color: =RGBA(179, 179, 179, 1)
+        Height: =38
         Icon: =Icon.Search
         Width: =45
         X: =383
-        Y: =125
+        Y: =133
         ZIndex: =7
 
     TextInput1_1 As text:
@@ -122,4 +122,26 @@ Dashboard As screen:
         X: =1142
         Y: =124
         ZIndex: =11
+
+    HeaderGallery As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =76
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1366
+        Y: =201
+        ZIndex: =12
+
+    RecordGallery As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =504
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1366
+        Y: =264
+        ZIndex: =13
 

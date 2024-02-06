@@ -1,1 +1,24 @@
-{}
+{
+  "28f710a5-3c29-490e-b083-a7890c848b4b": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://spuga.sharepoint.com/sites/PowerApps": {
+        "dataSources": {
+          "Event Attendees Management": {
+            "tableName": "60638452-631d-48a7-a0e7-8303daa65d6a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Event Attendees Management"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "28f710a5-3c29-490e-b083-a7890c848b4b"
+  }
+}
