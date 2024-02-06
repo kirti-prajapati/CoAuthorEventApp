@@ -9,12 +9,6 @@ Dashboard As screen:
         Y: =568
         ZIndex: =1
 
-    TextInput1 As text:
-        Default: ="Text input"
-        X: =152
-        Y: =312
-        ZIndex: =2
-
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =240
@@ -97,4 +91,10 @@ Dashboard As screen:
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =6
+
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =152
+        Y: =312
+        ZIndex: =2
 
