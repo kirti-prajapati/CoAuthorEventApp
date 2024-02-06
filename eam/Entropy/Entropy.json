@@ -1,112 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button2": 7,
-    "Dashboard": 10,
-    "Gallery2": 32,
-    "galleryTemplate2": 33,
-    "Host": 3,
-    "Image1": 5,
-    "Image3": 31,
-    "Image3_1": 36,
-    "Label1": 9,
-    "Label2": 8,
-    "Label3": 34,
-    "Label4": 35,
-    "Splash": 4,
-    "Success": 6
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 07:08:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "0001.jpg",
-    "photo_2024-02-05_12-14-06": "0002.jpg",
-    "photo_2024-02-05_12-17-19-transformed": "f74ae398-0d46-48c0-8a40-4392dddf162f.png"
-  },
-  "LocalResourceRootPaths": {
-    "milad-fakurian-GJKx5lhwU3M-unsplash (1)": "https://docserverpwaprodeus.blob.core.windows.net/44943466-0d13-46b2-b03f-42f5c7b9596a-1/resource/Assets0Images00001.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T06%3A45%3A15Z&ske=2024-02-07T07%3A00%3A15Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A00%3A15Z&sr=b&sp=r&sig=4Sf2SVvaxIqod5H12TgIXoep1dl%2BsMiS2Qhzp1klrQk%3D",
-    "photo_2024-02-05_12-14-06": "https://docserverpwaprodeus.blob.core.windows.net/44943466-0d13-46b2-b03f-42f5c7b9596a-1/resource/Assets0Images00002.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T06%3A45%3A15Z&ske=2024-02-07T07%3A00%3A15Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A00%3A15Z&sr=b&sp=r&sig=FjWLF1xWATHWBwZfg3ywcnmtceHmuR3zf1Z%2B5E8My8A%3D",
-    "photo_2024-02-05_12-17-19-transformed": "https://docserverpwaprodeus.blob.core.windows.net/44943466-0d13-46b2-b03f-42f5c7b9596a-1/resource/864f469b-5b95-4746-98c4-4c4a10a74c83.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-06T06%3A51%3A04Z&ske=2024-02-07T07%3A06%3A04Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-07T07%3A06%3A04Z&sr=b&sp=r&sig=0Mi9sLtzQDGs6IyqmSOX301kgD6BIdTwDqKhQFhEeuQ%3D"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "gallery": 3,
-    "image": 0,
-    "label": 1
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button2": {},
-    "Dashboard": {},
-    "Gallery2": {},
-    "galleryTemplate2": {},
-    "Host": {},
-    "Image1": {},
-    "Image3": {},
-    "Image3_1": {},
-    "Label1": {},
-    "Label2": {},
-    "Label3": {},
-    "Label4": {},
-    "Splash": {},
-    "Success": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button2": 8,
-    "Dashboard": 3,
-    "Gallery2": 1,
-    "galleryTemplate2": 2,
-    "Host": 0,
-    "Image1": 0,
-    "Image3": 3,
-    "Image3_1": 6,
-    "Label1": 9,
-    "Label2": 7,
-    "Label3": 4,
-    "Label4": 5,
-    "Splash": 16,
-    "Success": 18
-  },
-  "ResourcesJsonIndices": {
-    "Image-milad-fakurian-GJKx5lhwU3M-unsplash (1)": 1,
-    "Image-photo_2024-02-05_12-14-06": 2,
-    "Image-photo_2024-02-05_12-17-19-transformed": 3,
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.134208,
-    "ControlCount": {
-      "button": 2,
-      "datepicker": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "icon": 1,
-      "image": 3,
-      "label": 4,
-      "rectangle": 2,
-      "screen": 3,
-      "text": 2
-    },
-    "DeserializationLoadTime": 1.1767732
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
