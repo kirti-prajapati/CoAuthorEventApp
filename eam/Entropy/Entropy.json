@@ -27,11 +27,12 @@
     "TextInput1": 11,
     "TextInput1_1": 13,
     "TextInput1_2": 14,
-    "TextInput1_3": 15
+    "TextInput1_3": 15,
+    "Timer1": 34
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:35:05",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:40:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a9a9d896d1684106b72dffd2adda1063\""
@@ -69,12 +70,13 @@
   "OrderXMLTemplate": {
     "button": 4,
     "gallery": 0,
-    "htmlViewer": 6,
+    "htmlViewer": 7,
     "icon": 5,
     "image": 1,
     "label": 2,
-    "rectangle": 7,
-    "text": 3
+    "rectangle": 8,
+    "text": 3,
+    "timer": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -102,7 +104,8 @@
     "TextInput1": {},
     "TextInput1_1": {},
     "TextInput1_2": {},
-    "TextInput1_3": {}
+    "TextInput1_3": {},
+    "Timer1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -132,7 +135,8 @@
     "TextInput1": 7,
     "TextInput1_1": 8,
     "TextInput1_2": 9,
-    "TextInput1_3": 10
+    "TextInput1_3": 10,
+    "Timer1": 0
   },
   "ResourcesJsonIndices": {
     "Image-abstract-background-with-minimalist-design_1048-13338": 1,
