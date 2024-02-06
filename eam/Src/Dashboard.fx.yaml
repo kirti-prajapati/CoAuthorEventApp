@@ -92,3 +92,9 @@ Dashboard As screen:
             Width: =4
             ZIndex: =6
 
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =152
+        Y: =312
+        ZIndex: =2
+
