@@ -1,2 +1,9 @@
 Dashboard As screen:
 
+    Button1 As button:
+        Height: =68
+        Text: ="Button"
+        X: =111
+        Y: =45
+        ZIndex: =1
+
