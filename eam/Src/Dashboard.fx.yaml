@@ -21,7 +21,7 @@ Dashboard As screen:
 
     Label3 As label:
         Color: =RGBA(56, 96, 178, 1)
-        FontWeight: =FontWeight.Semibold
+        FontWeight: =FontWeight.Bold
         Height: =111
         Size: =25
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
@@ -44,4 +44,27 @@ Dashboard As screen:
         Width: =156
         X: =1210
         ZIndex: =5
+
+    TextInput1 As text:
+        BorderColor: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(241, 244, 249, 1)
+        Default: =""
+        Height: =65
+        HintText: ="Search"
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =414
+        X: =14
+        Y: =132
+        ZIndex: =6
+
+    Icon2 As icon.Search:
+        Height: =49
+        Icon: =Icon.Search
+        Width: =54
+        X: =374
+        Y: =140
+        ZIndex: =7
 
