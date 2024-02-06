@@ -8,11 +8,12 @@
     "Host": 3,
     "Image1": 7,
     "Splash": 6,
-    "Success": 8
+    "Success": 8,
+    "TextInput1": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 05:31:43",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 05:32:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -31,8 +32,9 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0,
-    "image": 1
+    "button": 1,
+    "image": 2,
+    "text": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -41,7 +43,8 @@
     "Host": {},
     "Image1": {},
     "Splash": {},
-    "Success": {}
+    "Success": {},
+    "TextInput1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -52,7 +55,8 @@
     "Host": 0,
     "Image1": 6,
     "Splash": 5,
-    "Success": 7
+    "Success": 7,
+    "TextInput1": 0
   },
   "ResourcesJsonIndices": {
     "Image-photo_2024-02-05_12-14-06": 1,

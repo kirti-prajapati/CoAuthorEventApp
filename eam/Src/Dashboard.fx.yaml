@@ -7,3 +7,9 @@ Dashboard As screen:
         Y: =45
         ZIndex: =1
 
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =152
+        Y: =312
+        ZIndex: =2
+
