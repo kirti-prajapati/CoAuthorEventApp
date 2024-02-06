@@ -25,6 +25,7 @@ Dashboard As screen:
         Height: =111
         Size: =25
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Underline: =true
         Width: =868
         X: =230
         ZIndex: =3
