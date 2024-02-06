@@ -14,10 +14,10 @@ Success As screen:
 
     Rectangle1 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =480
+        Height: =522
         Width: =689
         X: =344
-        Y: =224
+        Y: =182
         ZIndex: =2
 
     Label2 As label:
