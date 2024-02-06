@@ -12,3 +12,9 @@ Success As screen:
         Y: =300
         ZIndex: =2
 
+    Label2 As label:
+        Text: ="jdbvhj"
+        X: =40
+        Y: =40
+        ZIndex: =3
+
