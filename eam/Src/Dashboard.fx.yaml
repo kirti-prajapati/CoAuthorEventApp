@@ -307,6 +307,7 @@ Dashboard As screen:
 
     HtmlText1 As htmlViewer:
         Height: =555
+        HtmlText: =""
         Width: =527
         X: =462
         Y: =213
