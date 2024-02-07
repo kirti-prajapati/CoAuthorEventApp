@@ -973,7 +973,8 @@ Dashboard As screen:
 
         HtmlText3 As htmlViewer:
             Height: =437
-            HtmlText: =""
+            HtmlText: |-
+                ="<div style='padding: 300px; font size: 25px; color: white; box-shadow:5px 5px 8px #999; clip-path: inset(0px -15px 0px -15px); position: relative; margin: 0 50px; background: linear-gradient(90dg, springgreen, #90EE90);'<center></center> </div>"
             Width: =552
             X: =428
             Y: =295
