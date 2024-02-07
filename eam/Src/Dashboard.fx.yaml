@@ -867,8 +867,12 @@ Dashboard As screen:
                     Patch(
                         RecordGallery.Selected,
                         {
-                            'First Name':Label10.Text,
-                            ''Last Name':
+                            'First Name': txtFirstName.Text,
+                             Last Name: txtLastName.Text,
+                             contact number: txtcontactNumber.txt,
+                             Email ID: txtEmailID.txt,
+                             Professions: 
+                
                 
                 
                         }
