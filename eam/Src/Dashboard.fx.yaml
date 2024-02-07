@@ -861,7 +861,19 @@ Dashboard As screen:
 
         Button2 As button:
             Height: =39
-            OnSelect: =SubmitForm(Form1)
+            OnSelect: |-
+                =Set(
+                    varpatchsuccess,
+                    Patch(
+                        RecordGallery.Selected,
+                        {
+                            'First Name':Label10.Text,
+                            ''Last Name':
+                
+                
+                        }
+                    )
+                )
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =622
