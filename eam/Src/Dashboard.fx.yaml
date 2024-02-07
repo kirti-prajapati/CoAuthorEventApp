@@ -397,6 +397,13 @@ Dashboard As screen:
             Y: =439
             ZIndex: =33
 
+    Rectangle5 As rectangle:
+        Height: =82
+        Width: =535
+        X: =450
+        Y: =133
+        ZIndex: =40
+
     Regform As group:
         Height: =5
         Width: =5
@@ -421,19 +428,6 @@ Dashboard As screen:
             X: =462
             Y: =181
             ZIndex: =35
-
-        Label22 As label:
-            Align: =Align.Center
-            Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(56, 96, 178, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =56
-            Size: =25
-            Text: ="Registration Form"
-            Width: =527
-            X: =462
-            Y: =181
-            ZIndex: =36
 
         Icon6 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
