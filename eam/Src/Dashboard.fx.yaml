@@ -957,7 +957,7 @@ Dashboard As screen:
 
         Label19 As label:
             Align: =Align.Center
-            FontWeight: =FontWeight.Semibold
+            Font: =Font.Georgia
             Height: =80
             Size: =25
             Text: ="Thank you for attendees event."
