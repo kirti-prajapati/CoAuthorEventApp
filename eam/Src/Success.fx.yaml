@@ -3,8 +3,11 @@ Success As screen:
     ImagePosition: =ImagePosition.Stretch
 
     Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =108
-        Text: ="Text"
+        Size: =30
+        Text: ="Thank you for coming !"
         Width: =1338
         X: =15
         Y: =330
