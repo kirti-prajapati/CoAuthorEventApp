@@ -945,7 +945,7 @@ Dashboard As screen:
         Label15 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(0, 94, 146, 1)
+            Fill: =RGBA(119, 123, 125, 1)
             FontWeight: =FontWeight.Bold
             Height: =64
             Size: =25
