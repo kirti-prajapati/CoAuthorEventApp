@@ -867,17 +867,18 @@ Dashboard As screen:
                     Patch(
                         RecordGallery.Selected,
                         {
-                            'First Name': txtFirstName.Text,
+                            'First Name': txtFirstName.txt,
                              Last Name: txtLastName.Text,
                              contact number: txtcontactNumber.txt,
                              Email ID: txtEmailID.txt,
-                             Professions: 
-                
-                
-                
-                        }
-                    )
-                )
+                             Professions: txtProfessions.select,
+                             Organization: txtOrganization.txt,
+                             job Title: txtjobTitle.txt,
+                             Check in Status: txtCheckinStatus.Checkbox
+                        }));
+                        If(!IsBlank(varpatchsuccess),
+                        updatecontext({varsuccess:True})
+                        )
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =622
