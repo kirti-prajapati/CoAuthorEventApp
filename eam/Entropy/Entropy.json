@@ -88,6 +88,7 @@
     "Rectangle2": 116,
     "Rectangle3": 89,
     "Rectangle4": 117,
+    "Regform": 174,
     "Splash": 97,
     "StarVisible2": 132,
     "StarVisible3": 137,
@@ -107,7 +108,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/07/2024 09:48:05",
+  "HeaderLastSavedDateTimeUTC": "02/07/2024 09:51:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8dbab6cdf81f46ccbeaf464cc2fd1959\""
@@ -143,6 +144,14 @@
     "Event Attendees Management": 1
   },
   "OrderGroupControls": {
+    "Regform": {
+      "Button2": 0,
+      "Form1": 1,
+      "HtmlText1": 5,
+      "Icon6": 2,
+      "Label22": 3,
+      "Rectangle2": 4
+    },
     "thankyou": {
       "HtmlText3": 1,
       "Icon3": 2,
@@ -255,6 +264,7 @@
     "Rectangle2": {},
     "Rectangle3": {},
     "Rectangle4": {},
+    "Regform": {},
     "Splash": {},
     "StarVisible2": {},
     "StarVisible3": {},
@@ -361,6 +371,7 @@
     "Rectangle2": 16,
     "Rectangle3": 90,
     "Rectangle4": 21,
+    "Regform": 0,
     "Splash": 16,
     "StarVisible2": 38,
     "StarVisible3": 43,
