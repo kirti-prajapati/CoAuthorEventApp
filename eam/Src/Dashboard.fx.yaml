@@ -977,7 +977,7 @@ Dashboard As screen:
                 ZIndex: =4
 
     Button2 As button:
-        Text: ="Button"
+        Text: ="Submit"
         X: =657
         Y: =728
         ZIndex: =39
