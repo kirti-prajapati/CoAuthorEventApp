@@ -944,3 +944,10 @@ Dashboard As screen:
         Y: =295
         ZIndex: =29
 
+    Label19 As label:
+        Height: =44
+        Text: ="Thank you for attendees event."
+        X: =480
+        Y: =459
+        ZIndex: =30
+
