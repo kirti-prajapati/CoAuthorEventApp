@@ -49,7 +49,6 @@
     "galleryTemplate2": 6,
     "galleryTemplate4": 66,
     "galleryTemplate6": 79,
-    "Group3": 96,
     "HeaderGallery": 65,
     "Host": 3,
     "HtmlText2": 17,
@@ -102,11 +101,12 @@
     "TextInput1_1": 12,
     "TextInput1_2": 13,
     "TextInput1_3": 14,
+    "thankyou": 110,
     "Timer1": 98
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/07/2024 09:14:55",
+  "HeaderLastSavedDateTimeUTC": "02/07/2024 09:19:36",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8dbab6cdf81f46ccbeaf464cc2fd1959\""
@@ -142,13 +142,6 @@
     "Event Attendees Management": 1
   },
   "OrderGroupControls": {
-    "Group3": {
-      "HtmlText3": 0,
-      "Icon3": 1,
-      "Label15": 3,
-      "Label19": 2,
-      "Rectangle3": 4
-    },
     "Regform": {
       "Button2": 0,
       "Form1": 2,
@@ -156,6 +149,14 @@
       "Icon1": 1,
       "Label5": 3,
       "Rectangle2": 4
+    },
+    "thankyou": {
+      "HtmlText3": 1,
+      "Icon3": 2,
+      "Icon4": 0,
+      "Label15": 4,
+      "Label19": 3,
+      "Rectangle3": 5
     }
   },
   "OrderPcfTemplate": {},
@@ -222,7 +223,6 @@
     "galleryTemplate2": {},
     "galleryTemplate4": {},
     "galleryTemplate6": {},
-    "Group3": {},
     "HeaderGallery": {},
     "Host": {},
     "HtmlText2": {},
@@ -275,6 +275,7 @@
     "TextInput1_1": {},
     "TextInput1_2": {},
     "TextInput1_3": {},
+    "thankyou": {},
     "Timer1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -327,7 +328,6 @@
     "galleryTemplate2": 4,
     "galleryTemplate4": 63,
     "galleryTemplate6": 76,
-    "Group3": 88,
     "HeaderGallery": 62,
     "Host": 0,
     "HtmlText2": 15,
@@ -380,6 +380,7 @@
     "TextInput1_1": 10,
     "TextInput1_2": 11,
     "TextInput1_3": 12,
+    "thankyou": 0,
     "Timer1": 0
   },
   "ResourcesJsonIndices": {
