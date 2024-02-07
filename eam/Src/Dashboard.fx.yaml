@@ -646,6 +646,12 @@ Dashboard As screen:
                     Y: =10
                     ZIndex: =5
 
+                Label17 As label:
+                    Text: ="Text"
+                    X: =203
+                    Y: =28
+                    ZIndex: =6
+
             Organization_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Check_x0020_In_x0020__x0020_Stat"
