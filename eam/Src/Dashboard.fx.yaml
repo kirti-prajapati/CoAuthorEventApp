@@ -950,7 +950,7 @@ Dashboard As screen:
         Rectangle3 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =442
-            Visible: =If(varsuccess=true,true,false)
+            Visible: =false
             Width: =561
             X: =419
             Y: =295
@@ -964,7 +964,7 @@ Dashboard As screen:
             Height: =64
             Size: =25
             Text: ="Text"
-            Visible: =If(varsuccess=true,true,false)
+            Visible: =false
             Width: =561
             X: =419
             Y: =295
@@ -976,7 +976,7 @@ Dashboard As screen:
             Height: =80
             Size: =25
             Text: ="Thank you for attendees event."
-            Visible: =If(varsuccess=true,true,false)
+            Visible: =false
             Width: =552
             X: =428
             Y: =503
@@ -985,7 +985,7 @@ Dashboard As screen:
         Icon3 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
             Icon: =Icon.Cancel
-            Visible: =If(varsuccess=true,true,false)
+            Visible: =false
             Width: =50
             X: =930
             Y: =295
@@ -995,7 +995,7 @@ Dashboard As screen:
             Height: =437
             HtmlText: |-
                 ="<div style='padding: 300px; font size: 25px; color: white; box-shadow:5px 5px 8px #999; clip-path: inset(0px -15px 0px -15px); position: relative; margin: 0 50px; background: linear-gradient(90dg, springgreen, #90EE90);'<center></center> </div>"
-            Visible: =If(varsuccess=true,true,false)
+            Visible: =false
             Width: =552
             X: =428
             Y: =295
