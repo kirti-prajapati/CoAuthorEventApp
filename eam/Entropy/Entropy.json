@@ -49,6 +49,7 @@
     "galleryTemplate2": 9,
     "galleryTemplate4": 26,
     "galleryTemplate6": 83,
+    "Group5": 116,
     "HeaderGallery": 25,
     "Host": 3,
     "HtmlText1": 21,
@@ -108,7 +109,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/07/2024 10:29:11",
+  "HeaderLastSavedDateTimeUTC": "02/07/2024 10:32:44",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8dbab6cdf81f46ccbeaf464cc2fd1959\""
@@ -144,6 +145,11 @@
     "Event Attendees Management": 1
   },
   "OrderGroupControls": {
+    "Group5": {
+      "Button3_1": 0,
+      "Button3_4": 1,
+      "HeaderGallery": 2
+    },
     "Regform": {
       "Button2": 3,
       "Form1": 4,
@@ -226,6 +232,7 @@
     "galleryTemplate2": {},
     "galleryTemplate4": {},
     "galleryTemplate6": {},
+    "Group5": {},
     "HeaderGallery": {},
     "Host": {},
     "HtmlText1": {},
@@ -289,16 +296,16 @@
     "App": 0,
     "Button1": 13,
     "Button2": 96,
-    "Button3": 33,
+    "Button3": 32,
     "Button3_1": 33,
     "Button3_2": 27,
     "Button3_3": 34,
-    "Button3_4": 30,
+    "Button3_4": 29,
     "Button3_5": 35,
     "Button3_6": 36,
     "Button3_7": 26,
-    "Button3_8": 32,
-    "Button3_9": 31,
+    "Button3_8": 31,
+    "Button3_9": 30,
     "Check In  Status_DataCard1": 73,
     "Contact Number_DataCard1": 48,
     "Dashboard": 3,
@@ -333,6 +340,7 @@
     "galleryTemplate2": 4,
     "galleryTemplate4": 22,
     "galleryTemplate6": 79,
+    "Group5": 28,
     "HeaderGallery": 21,
     "Host": 0,
     "HtmlText1": 19,
