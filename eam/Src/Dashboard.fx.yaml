@@ -978,6 +978,7 @@ Dashboard As screen:
                 ZIndex: =4
 
     Button2 As button:
+        OnSelect: =SubmitForm(Form1)
         Text: ="Submit"
         X: =657
         Y: =728
