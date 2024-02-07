@@ -363,6 +363,12 @@ Dashboard As screen:
                     Y: =DataCardKey2.Y
                     ZIndex: =4
 
+                Label10 As label:
+                    Text: ="Text"
+                    X: =115
+                    Y: =40
+                    ZIndex: =5
+
             "'Last Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Last_x0020_Name"
@@ -903,4 +909,20 @@ Dashboard As screen:
         X: =1167
         Y: =230
         ZIndex: =27
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =442
+        Width: =561
+        X: =419
+        Y: =295
+        ZIndex: =28
+
+    Label15 As label:
+        Height: =64
+        Text: ="Text"
+        Width: =561
+        X: =419
+        Y: =295
+        ZIndex: =29
 
