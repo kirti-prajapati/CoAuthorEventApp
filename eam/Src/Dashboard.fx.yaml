@@ -127,25 +127,117 @@ Dashboard As screen:
 
     HeaderGallery As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =76
-        Items: =CustomGallerySample
+        Height: =55
+        Items: ='Event Attendees Management'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =88
         Width: =1366
-        Y: =201
+        Y: =215
         ZIndex: =12
+
+        Label18 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =53
+            Y: =8
+            ZIndex: =1
+
+        Button3_2 As button:
+            Color: =RGBA(50, 86, 160, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Text: ="Fname"
+            X: =2
+            Y: =48
+            ZIndex: =2
+
+        Button3_7 As button:
+            Color: =RGBA(50, 86, 160, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            Text: ="Lname"
+            X: =40
+            Y: =40
+            ZIndex: =3
 
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =504
-        Items: =CustomGallerySample
+        Items: ='Event Attendees Management'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =110
         Width: =1366
         Y: =264
         ZIndex: =13
+
+        Label6 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Label7 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'First Name'
+            X: =51
+            Y: =28
+            ZIndex: =2
+
+        Label8 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Last Name'
+            X: =176
+            Y: =28
+            ZIndex: =3
+
+        Label9 As label:
+            Height: =64
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Email ID'
+            Width: =230
+            X: =471
+            Y: =15
+            ZIndex: =4
+
+        Label11 As label:
+            Height: =44
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Professions.Value
+            X: =697
+            Y: =24
+            ZIndex: =5
+
+        Label12 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Organization
+            X: =847
+            Y: =28
+            ZIndex: =6
+
+        Label13 As label:
+            Height: =95
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Job Title'
+            Width: =138
+            X: =1026
+            ZIndex: =7
+
+        Label14 As label:
+            Height: =44
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Contact Number'
+            X: =281
+            Y: =28
+            ZIndex: =8
+
+    Button3 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Lname"
+        X: =141
+        Y: =231
+        ZIndex: =20
 
     Regform As group:
         Height: =5
@@ -395,6 +487,12 @@ Dashboard As screen:
                     Wrap: =false
                     Y: =DataCardKey9.Y
                     ZIndex: =4
+
+                Label10 As label:
+                    Text: ="Text"
+                    X: =96
+                    Y: =37
+                    ZIndex: =5
 
             "'Email ID_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
@@ -745,4 +843,52 @@ Dashboard As screen:
             X: =622
             Y: =693
             ZIndex: =19
+
+    Button3_1 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Contact"
+        X: =268
+        Y: =231
+        ZIndex: =21
+
+    Button3_3 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Professions"
+        X: =669
+        Y: =231
+        ZIndex: =22
+
+    Button3_4 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Email ID"
+        X: =475
+        Y: =231
+        ZIndex: =23
+
+    Button3_5 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Organization "
+        X: =829
+        Y: =231
+        ZIndex: =24
+
+    Button3_6 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Job Title "
+        X: =989
+        Y: =231
+        ZIndex: =25
+
+    Button3_8 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Fname"
+        X: =17
+        Y: =231
+        ZIndex: =26
 
