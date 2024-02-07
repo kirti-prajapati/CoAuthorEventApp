@@ -924,10 +924,10 @@ Dashboard As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Check_x0020_In_x0020__x0020_Stat0")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =42
+            Height: =40
             Required: =false
             Update: =DataCardValue8.Value
-            Width: =519
+            Width: =346
             X: =0
             Y: =7
             ZIndex: =39
@@ -975,4 +975,10 @@ Dashboard As screen:
                 Wrap: =false
                 Y: =DataCardKey8.Y
                 ZIndex: =4
+
+    Button2 As button:
+        Text: ="Button"
+        X: =657
+        Y: =728
+        ZIndex: =39
 
