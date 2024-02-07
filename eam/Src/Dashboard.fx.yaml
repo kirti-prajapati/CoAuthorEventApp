@@ -129,7 +129,7 @@ Dashboard As screen:
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =504
-        Items: ='Event Attendees Management'
+        Items: =Search(Event Attendees Management_Details,txt_SearchLargeData.Text,"")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =110
