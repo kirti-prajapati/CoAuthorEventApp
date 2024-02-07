@@ -927,6 +927,15 @@ Dashboard As screen:
         Y: =230
         ZIndex: =27
 
+    Icon4 As icon.Heart:
+        Color: =RGBA(219, 219, 219, 1)
+        Height: =122
+        Icon: =Icon.Heart
+        Width: =134
+        X: =622
+        Y: =439
+        ZIndex: =33
+
     Group3 As group:
         Height: =5
         Width: =5
@@ -962,8 +971,8 @@ Dashboard As screen:
             Size: =25
             Text: ="Thank you for attendees event."
             Width: =552
-            X: =428
-            Y: =503
+            X: =412
+            Y: =561
             ZIndex: =30
 
         Icon3 As icon.Cancel:
