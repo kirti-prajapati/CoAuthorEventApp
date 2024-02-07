@@ -936,6 +936,7 @@ Dashboard As screen:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(0, 94, 146, 1)
+        FontWeight: =FontWeight.Bold
         Height: =64
         Size: =25
         Text: ="Text"
@@ -945,9 +946,21 @@ Dashboard As screen:
         ZIndex: =29
 
     Label19 As label:
-        Height: =44
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =80
+        Size: =25
         Text: ="Thank you for attendees event."
-        X: =480
-        Y: =459
+        Width: =552
+        X: =428
+        Y: =503
         ZIndex: =30
+
+    Icon3 As icon.Cancel:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Cancel
+        Width: =50
+        X: =930
+        Y: =295
+        ZIndex: =31
 
