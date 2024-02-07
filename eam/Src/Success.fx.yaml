@@ -2,49 +2,11 @@ Success As screen:
     BackgroundImage: ='elegant-white-background-with-shiny-lines_1017-17580'
     ImagePosition: =ImagePosition.Stretch
 
-    HtmlText1 As htmlViewer:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =537
-        HtmlText: |-
-            ="<div style=""margin: 12px 10px 8px 10px; width: "&(Self.Width-31)&"px; height: "&(Self.Height-31)&"px; background-color: white; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius:5px""></div>"
-        Width: =729
-        X: =324
-        Y: =182
-        ZIndex: =1
-
-    Rectangle1 As rectangle:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =522
-        Width: =689
-        X: =344
-        Y: =182
-        ZIndex: =2
-
     Label2 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =123
-        Size: =30
-        Text: ="Thank you for visit our website!"
-        Width: =574
-        X: =411
-        Y: =444
-        ZIndex: =3
-
-    Image2 As image:
-        Height: =46
-        Image: ='cross-removebg-preview'
-        Width: =58
-        X: =975
-        Y: =211
-        ZIndex: =4
-
-    Icon4 As icon.CheckBadge:
-        Color: =RGBA(127, 178, 57, 1)
-        Height: =122
-        Icon: =Icon.CheckBadge
-        Width: =116
-        X: =630
-        Y: =309
-        ZIndex: =5
+        Height: =108
+        Text: ="Text"
+        Width: =1338
+        X: =15
+        Y: =330
+        ZIndex: =1
 
