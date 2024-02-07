@@ -232,6 +232,15 @@ Dashboard As screen:
             Y: =28
             ZIndex: =8
 
+        Icon5 As icon.CheckBadge:
+            Height: =41
+            Icon: =Icon.CheckBadge
+            OnSelect: =Select(Parent)
+            Width: =41
+            X: =1237
+            Y: =31
+            ZIndex: =9
+
     Button3 As button:
         Color: =RGBA(50, 86, 160, 1)
         Fill: =RGBA(0, 0, 0, 0)
@@ -892,4 +901,12 @@ Dashboard As screen:
         X: =17
         Y: =231
         ZIndex: =26
+
+    Button3_9 As button:
+        Color: =RGBA(50, 86, 160, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Action"
+        X: =1167
+        Y: =230
+        ZIndex: =27
 
