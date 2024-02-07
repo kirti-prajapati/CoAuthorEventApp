@@ -647,7 +647,7 @@ Dashboard As screen:
                     ZIndex: =5
 
                 Label17 As label:
-                    Text: ="Text"
+                    Text: ="Thank you for attendees event."
                     X: =203
                     Y: =28
                     ZIndex: =6
