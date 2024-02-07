@@ -498,12 +498,6 @@ Dashboard As screen:
                     Y: =DataCardKey9.Y
                     ZIndex: =4
 
-                Label10 As label:
-                    Text: ="Text"
-                    X: =96
-                    Y: =37
-                    ZIndex: =5
-
             "'Email ID_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Email_x0020_ID"
