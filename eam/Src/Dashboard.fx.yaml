@@ -374,11 +374,11 @@ Dashboard As screen:
             Y: =439
             ZIndex: =33
 
-    Button3_1 As button:
+    Button3_4 As button:
         Color: =RGBA(50, 86, 160, 1)
         Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Contact"
-        X: =289
+        Text: ="Email Id"
+        X: =477
         Y: =229
         ZIndex: =43
 
@@ -988,11 +988,13 @@ Dashboard As screen:
             Y: =139
             ZIndex: =42
 
-    Button3_4 As button:
+    Button3_1 As button:
         Color: =RGBA(50, 86, 160, 1)
         Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Email Id"
-        X: =477
-        Y: =229
+        Height: =33
+        Text: ="Contact Number"
+        Width: =179
+        X: =289
+        Y: =231
         ZIndex: =44
 
