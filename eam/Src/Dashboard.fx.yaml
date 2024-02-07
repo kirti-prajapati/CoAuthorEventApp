@@ -638,6 +638,14 @@ Dashboard As screen:
                     Y: =DataCardKey5.Y
                     ZIndex: =4
 
+                Label16 As label:
+                    Height: =69
+                    Text: ="Text"
+                    Width: =302
+                    X: =81
+                    Y: =10
+                    ZIndex: =5
+
             Organization_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Check_x0020_In_x0020__x0020_Stat"
@@ -919,7 +927,11 @@ Dashboard As screen:
         ZIndex: =28
 
     Label15 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 94, 146, 1)
         Height: =64
+        Size: =25
         Text: ="Text"
         Width: =561
         X: =419
