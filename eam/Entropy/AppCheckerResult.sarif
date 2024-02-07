@@ -560,19 +560,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.txt_SearchLargeData.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.txt_SearchLargeData.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.TextInput1"
+                "type": "Dashboard.txt_SearchLargeData"
               }
             }
           ],

@@ -101,15 +101,15 @@
     "StarVisible8": 78,
     "StarVisible9": 54,
     "Success": 4,
-    "TextInput1": 14,
     "TextInput1_1": 15,
     "TextInput1_2": 16,
     "TextInput1_3": 17,
-    "Timer1": 103
+    "Timer1": 103,
+    "txt_SearchLargeData": 14
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/07/2024 10:58:07",
+  "HeaderLastSavedDateTimeUTC": "02/07/2024 11:30:37",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8dbab6cdf81f46ccbeaf464cc2fd1959\""
@@ -284,11 +284,11 @@
     "StarVisible8": {},
     "StarVisible9": {},
     "Success": {},
-    "TextInput1": {},
     "TextInput1_1": {},
     "TextInput1_2": {},
     "TextInput1_3": {},
-    "Timer1": {}
+    "Timer1": {},
+    "txt_SearchLargeData": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -392,11 +392,11 @@
     "StarVisible8": 74,
     "StarVisible9": 50,
     "Success": 18,
-    "TextInput1": 9,
     "TextInput1_1": 10,
     "TextInput1_2": 11,
     "TextInput1_3": 12,
-    "Timer1": 0
+    "Timer1": 0,
+    "txt_SearchLargeData": 9
   },
   "ResourcesJsonIndices": {
     "Image-abstract-background-with-minimalist-design_1048-13338": 1,

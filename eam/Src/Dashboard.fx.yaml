@@ -46,12 +46,13 @@ Dashboard As screen:
         X: =1210
         ZIndex: =5
 
-    TextInput1 As text:
+    txt_SearchLargeData As text:
         BorderColor: =RGBA(237, 237, 237, 1)
         Color: =RGBA(241, 244, 249, 1)
         Default: =""
         Height: =57
         HintText: ="Search"
+        PaddingLeft: =40
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
         RadiusTopLeft: =10
