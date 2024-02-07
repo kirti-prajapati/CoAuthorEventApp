@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -39,7 +39,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -79,15 +79,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -104,10 +104,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -120,7 +120,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -144,10 +144,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -160,15 +160,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -185,10 +185,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -201,7 +201,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -225,10 +225,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -241,15 +241,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -266,10 +266,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -282,7 +282,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -306,10 +306,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -322,15 +322,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -347,10 +347,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -363,7 +363,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -387,10 +387,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -403,15 +403,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -428,10 +428,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 10,
                   "charOffset": 3,
                   "snippet": {
-                    "text": "varsuccessTrue"
+                    "text": "varsuccess"
                   }
                 }
               },
@@ -444,7 +444,7 @@
           ],
           "message": {
             "arguments": [
-              "varsuccessTrue"
+              "varsuccess"
             ],
             "id": "issue"
           },
@@ -468,10 +468,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
+                  "charLength": 1,
+                  "charOffset": 13,
                   "snippet": {
-                    "text": "If(varsuccessTrue)"
+                    "text": "="
                   }
                 }
               },
@@ -484,15 +484,15 @@
           ],
           "message": {
             "arguments": [
-              "1",
-              "2"
+              "Error",
+              "Boolean"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadArityMinimum",
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 1
         },
         {
@@ -1269,14 +1269,18 @@
               }
             },
             {
-              "id": "app-ErrBadArityMinimum",
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1} or more."
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

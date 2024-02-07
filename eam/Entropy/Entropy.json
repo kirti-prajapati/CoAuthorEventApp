@@ -50,6 +50,7 @@
     "galleryTemplate4": 26,
     "galleryTemplate6": 83,
     "Group5": 116,
+    "grpsuccess": 101,
     "HeaderGallery": 25,
     "Host": 3,
     "HtmlText1": 21,
@@ -104,12 +105,11 @@
     "TextInput1_1": 15,
     "TextInput1_2": 16,
     "TextInput1_3": 17,
-    "thankyou": 101,
     "Timer1": 103
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/07/2024 10:52:17",
+  "HeaderLastSavedDateTimeUTC": "02/07/2024 10:53:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "28f710a5-3c29-490e-b083-a7890c848b4b": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8dbab6cdf81f46ccbeaf464cc2fd1959\""
@@ -150,6 +150,14 @@
       "Button3_4": 1,
       "HeaderGallery": 2
     },
+    "grpsuccess": {
+      "HtmlText3": 1,
+      "Icon3": 2,
+      "Icon4": 0,
+      "Label15": 4,
+      "Label19": 3,
+      "Rectangle3": 5
+    },
     "Regform": {
       "Button2": 3,
       "Form1": 4,
@@ -158,14 +166,6 @@
       "Label22": 1,
       "Rectangle2": 5,
       "Rectangle5": 2
-    },
-    "thankyou": {
-      "HtmlText3": 1,
-      "Icon3": 2,
-      "Icon4": 0,
-      "Label15": 4,
-      "Label19": 3,
-      "Rectangle3": 5
     }
   },
   "OrderPcfTemplate": {},
@@ -233,6 +233,7 @@
     "galleryTemplate4": {},
     "galleryTemplate6": {},
     "Group5": {},
+    "grpsuccess": {},
     "HeaderGallery": {},
     "Host": {},
     "HtmlText1": {},
@@ -287,7 +288,6 @@
     "TextInput1_1": {},
     "TextInput1_2": {},
     "TextInput1_3": {},
-    "thankyou": {},
     "Timer1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -341,6 +341,7 @@
     "galleryTemplate4": 22,
     "galleryTemplate6": 79,
     "Group5": 28,
+    "grpsuccess": 91,
     "HeaderGallery": 21,
     "Host": 0,
     "HtmlText1": 19,
@@ -395,7 +396,6 @@
     "TextInput1_1": 10,
     "TextInput1_2": 11,
     "TextInput1_3": 12,
-    "thankyou": 91,
     "Timer1": 0
   },
   "ResourcesJsonIndices": {
