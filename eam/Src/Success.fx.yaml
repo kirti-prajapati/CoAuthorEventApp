@@ -14,7 +14,9 @@ Success As screen:
         ZIndex: =1
 
     Label16 As label:
+        Align: =Align.Center
         Height: =78
+        Size: =30
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
         Width: =1353
         Y: =516
