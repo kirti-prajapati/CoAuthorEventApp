@@ -13,3 +13,10 @@ Success As screen:
         Y: =330
         ZIndex: =1
 
+    Label16 As label:
+        Height: =78
+        Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
+        Width: =1353
+        Y: =516
+        ZIndex: =2
+
