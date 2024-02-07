@@ -638,20 +638,6 @@ Dashboard As screen:
                     Y: =DataCardKey5.Y
                     ZIndex: =4
 
-                Label16 As label:
-                    Height: =69
-                    Text: ="Text"
-                    Width: =302
-                    X: =81
-                    Y: =10
-                    ZIndex: =5
-
-                Label17 As label:
-                    Text: ="Thank you for attendees event."
-                    X: =203
-                    Y: =28
-                    ZIndex: =6
-
             Organization_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Check_x0020_In_x0020__x0020_Stat"
