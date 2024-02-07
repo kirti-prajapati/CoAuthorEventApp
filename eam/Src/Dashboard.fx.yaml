@@ -117,8 +117,7 @@ Dashboard As screen:
 
     Button1 As button:
         Height: =57
-        OnSelect: |-
-            =NewForm(Form1);UpdateContext({_ShowRegform:true})
+        OnSelect: =_ShowRegform
         Text: ="Register Now"
         Width: =211
         X: =1142
