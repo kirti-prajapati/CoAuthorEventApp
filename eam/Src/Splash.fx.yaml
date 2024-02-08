@@ -29,7 +29,7 @@ Splash As screen:
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
         Width: =1143
         X: =118
-        Y: =560
+        Y: =571
         ZIndex: =3
 
     Image4 As image:

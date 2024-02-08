@@ -5,23 +5,26 @@ Success As screen:
     Label2 As label:
         Align: =Align.Center
         Color: =RGBA(102, 113, 166, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =55
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =52
         Size: =30
         Text: ="Thank you for coming !"
-        Width: =468
-        X: =436
-        Y: =446
+        Width: =493
+        X: =462
+        Y: =464
         ZIndex: =1
 
     Label16 As label:
         Align: =Align.Center
+        Color: =RGBA(168, 0, 0, 1)
+        Font: =Font.Georgia
         Height: =60
         Size: =30
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
         Width: =980
-        X: =180
-        Y: =536
+        X: =218
+        Y: =538
         ZIndex: =2
 
     Image2 As image:
@@ -29,8 +32,8 @@ Success As screen:
         Height: =151
         Image: =excellence
         Width: =189
-        X: =575
-        Y: =263
+        X: =613
+        Y: =291
         ZIndex: =3
 
     Timer2 As timer:
@@ -44,6 +47,7 @@ Success As screen:
         ZIndex: =4
 
     Image5 As image:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Height: =52
         Image: =address
         Width: =45
@@ -52,6 +56,7 @@ Success As screen:
         ZIndex: =5
 
     Image5_1 As image:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Height: =52
         Image: ='social-media'
         Width: =45
@@ -60,6 +65,7 @@ Success As screen:
         ZIndex: =6
 
     Image5_2 As image:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Height: =52
         Image: =twitter
         Width: =45
@@ -68,6 +74,7 @@ Success As screen:
         ZIndex: =7
 
     Image5_3 As image:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Height: =52
         Image: =instagram
         Width: =45
