@@ -380,7 +380,7 @@ Dashboard As screen:
             Text: ="FName"
             Width: =88
             X: =31
-            Y: =242
+            Y: =240
             ZIndex: =32
 
         Label17 As label:
