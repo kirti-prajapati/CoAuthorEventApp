@@ -227,12 +227,12 @@ Dashboard As screen:
             Icon: =Icon.CheckBadge
             OnSelect: |
                 =Navigate(
-                    Form1,
+                    grpsuccess,
                     ScreenTransition.Fade
                 );
             Width: =43
-            X: =1229
-            Y: =28
+            X: =1226
+            Y: =30
             ZIndex: =9
 
     grpsuccess As group:
@@ -409,8 +409,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Action"
             Width: =137
-            X: =1216
-            Y: =242
+            X: =1210
+            Y: =241
             ZIndex: =36
 
     Icon6 As icon.ArrowsUpDown:
