@@ -968,10 +968,9 @@ Dashboard As screen:
                 ZIndex: =39
 
                 DataCardKey8 As label:
-                    AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
-                    Width: =(Parent.Width - 60) * 0.4
+                    Width: =149
                     Wrap: =false
                     X: =30
                     Y: =10 + (DataCardValue8.Height / 2) - (Self.Height / 2)
@@ -981,9 +980,10 @@ Dashboard As screen:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DisplayMode: =Parent.DisplayMode
+                    Height: =33
                     Tooltip: =Parent.DisplayName
                     X: =Parent.Width  - Self.Width - 30
-                    Y: =12
+                    Y: =7
                     ZIndex: =2
 
                 ErrorMessage8 As label:
