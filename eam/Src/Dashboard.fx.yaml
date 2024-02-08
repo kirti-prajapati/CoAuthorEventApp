@@ -11,13 +11,13 @@ Dashboard As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
         Width: =1366
-        ZIndex: =2
+        ZIndex: =5
 
     Image3 As image:
         Height: =111
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =194
-        ZIndex: =3
+        ZIndex: =6
 
     Label3 As label:
         Color: =RGBA(56, 96, 178, 1)
@@ -28,7 +28,7 @@ Dashboard As screen:
         Underline: =true
         Width: =868
         X: =230
-        ZIndex: =4
+        ZIndex: =7
 
     Label4 As label:
         FontWeight: =FontWeight.Semibold
@@ -37,14 +37,14 @@ Dashboard As screen:
         Text: ="Powered by "
         Width: =100
         X: =1098
-        ZIndex: =5
+        ZIndex: =8
 
     Image3_1 As image:
         Height: =111
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =156
         X: =1210
-        ZIndex: =6
+        ZIndex: =9
 
     txt_SearchLargeData As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -60,7 +60,7 @@ Dashboard As screen:
         Width: =414
         X: =14
         Y: =124
-        ZIndex: =7
+        ZIndex: =10
 
     Icon2 As icon.Search:
         Color: =RGBA(179, 179, 179, 1)
@@ -69,7 +69,7 @@ Dashboard As screen:
         Width: =45
         X: =383
         Y: =133
-        ZIndex: =8
+        ZIndex: =11
 
     TextInput1_1 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -84,7 +84,7 @@ Dashboard As screen:
         Width: =211
         X: =449
         Y: =124
-        ZIndex: =9
+        ZIndex: =12
 
     TextInput1_2 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -99,7 +99,7 @@ Dashboard As screen:
         Width: =211
         X: =682
         Y: =124
-        ZIndex: =10
+        ZIndex: =13
 
     TextInput1_3 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -114,7 +114,7 @@ Dashboard As screen:
         Width: =211
         X: =915
         Y: =124
-        ZIndex: =11
+        ZIndex: =14
 
     Button1 As button:
         Height: =57
@@ -124,7 +124,7 @@ Dashboard As screen:
         Width: =211
         X: =1142
         Y: =124
-        ZIndex: =12
+        ZIndex: =15
 
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -135,7 +135,7 @@ Dashboard As screen:
         TemplateSize: =110
         Width: =1366
         Y: =264
-        ZIndex: =13
+        ZIndex: =16
 
         Label6 As label:
             OnSelect: =Select(Parent)
@@ -221,7 +221,7 @@ Dashboard As screen:
             Width: =561
             X: =419
             Y: =295
-            ZIndex: =14
+            ZIndex: =17
 
         Label15 As label:
             Align: =Align.Center
@@ -235,7 +235,7 @@ Dashboard As screen:
             Width: =576
             X: =404
             Y: =295
-            ZIndex: =15
+            ZIndex: =18
 
         Label19 As label:
             Align: =Align.Center
@@ -247,7 +247,7 @@ Dashboard As screen:
             Width: =552
             X: =412
             Y: =561
-            ZIndex: =16
+            ZIndex: =19
 
         Icon3 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
@@ -256,7 +256,7 @@ Dashboard As screen:
             Width: =50
             X: =930
             Y: =295
-            ZIndex: =17
+            ZIndex: =20
 
         HtmlText3 As htmlViewer:
             Height: =473
@@ -266,7 +266,7 @@ Dashboard As screen:
             Width: =585
             X: =404
             Y: =295
-            ZIndex: =18
+            ZIndex: =21
 
         Icon4 As icon.Heart:
             Color: =RGBA(219, 219, 219, 1)
@@ -276,7 +276,7 @@ Dashboard As screen:
             Width: =134
             X: =622
             Y: =439
-            ZIndex: =19
+            ZIndex: =22
 
     HeaderGroup As group:
         Height: =5
@@ -304,13 +304,38 @@ Dashboard As screen:
                 X: =184
                 ZIndex: =1
 
+        Label23 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =15
+            Text: ="Organization"
+            Width: =147
+            X: =842
+            Y: =242
+            ZIndex: =2
+
+        Label21 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =15
+            Text: ="Professions"
+            X: =676
+            Y: =242
+            ZIndex: =3
+
+        Label20 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =15
+            Text: ="Email Id"
+            X: =494
+            Y: =242
+            ZIndex: =4
+
         Label10 As label:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: ="FName"
             X: =44
             Y: =244
-            ZIndex: =27
+            ZIndex: =30
 
         Label17 As label:
             FontWeight: =FontWeight.Bold
@@ -318,7 +343,7 @@ Dashboard As screen:
             Text: ="LName"
             X: =164
             Y: =242
-            ZIndex: =28
+            ZIndex: =31
 
         Label18 As label:
             FontWeight: =FontWeight.Bold
@@ -327,7 +352,7 @@ Dashboard As screen:
             Width: =184
             X: =278
             Y: =242
-            ZIndex: =29
+            ZIndex: =32
 
         Label24 As label:
             FontWeight: =FontWeight.Bold
@@ -335,7 +360,7 @@ Dashboard As screen:
             Text: ="Job Title"
             X: =1020
             Y: =242
-            ZIndex: =30
+            ZIndex: =33
 
         Label25 As label:
             FontWeight: =FontWeight.Bold
@@ -343,31 +368,6 @@ Dashboard As screen:
             Text: ="Action"
             Width: =137
             X: =1216
-            Y: =242
-            ZIndex: =31
-
-        Label23 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Organization"
-            Width: =147
-            X: =842
-            Y: =242
-            ZIndex: =32
-
-        Label21 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Professions"
-            X: =676
-            Y: =242
-            ZIndex: =33
-
-        Label20 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Email Id"
-            X: =494
             Y: =242
             ZIndex: =34
 
@@ -387,7 +387,7 @@ Dashboard As screen:
             Width: =527
             X: =462
             Y: =181
-            ZIndex: =20
+            ZIndex: =23
 
         Rectangle2 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -396,7 +396,7 @@ Dashboard As screen:
             Width: =527
             X: =462
             Y: =181
-            ZIndex: =21
+            ZIndex: =24
 
         Form1 As form:
             DataSource: ='Event Attendees Management'
@@ -405,7 +405,7 @@ Dashboard As screen:
             Width: =521
             X: =468
             Y: =244
-            ZIndex: =22
+            ZIndex: =25
 
             "'First Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
@@ -945,7 +945,7 @@ Dashboard As screen:
             Visible: =_ShowRegform
             X: =657
             Y: =728
-            ZIndex: =23
+            ZIndex: =26
 
         Rectangle5 As rectangle:
             Height: =82
@@ -953,7 +953,7 @@ Dashboard As screen:
             Width: =523
             X: =462
             Y: =133
-            ZIndex: =24
+            ZIndex: =27
 
         Label22 As label:
             Align: =Align.Center
@@ -967,7 +967,7 @@ Dashboard As screen:
             Width: =519
             X: =462
             Y: =143
-            ZIndex: =25
+            ZIndex: =28
 
         Icon1 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
@@ -977,5 +977,5 @@ Dashboard As screen:
             Visible: =_ShowRegform
             X: =921
             Y: =139
-            ZIndex: =26
+            ZIndex: =29
 
