@@ -50,6 +50,7 @@ Dashboard As screen:
         BorderColor: =RGBA(237, 237, 237, 1)
         Color: =RGBA(241, 244, 249, 1)
         Default: =
+        DelayOutput: =true
         Height: =57
         HintText: ="Search"
         PaddingLeft: =40
