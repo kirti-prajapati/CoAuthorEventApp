@@ -361,12 +361,12 @@ Dashboard As screen:
 
         Label10 As label:
             FontWeight: =FontWeight.Bold
-            Height: =38
+            Height: =35
             Size: =15
             Text: ="FName"
-            Width: =110
+            Width: =88
             X: =31
-            Y: =244
+            Y: =242
             ZIndex: =32
 
         Label17 As label:
@@ -375,7 +375,7 @@ Dashboard As screen:
             Text: ="LName"
             Width: =84
             X: =146
-            Y: =244
+            Y: =240
             ZIndex: =33
 
         Label18 As label:
