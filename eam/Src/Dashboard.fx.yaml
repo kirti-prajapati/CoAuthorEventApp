@@ -151,15 +151,15 @@ Dashboard As screen:
         Label7 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'First Name'
-            X: =51
-            Y: =28
+            X: =26
+            Y: =26
             ZIndex: =2
 
         Label8 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Last Name'
-            X: =176
-            Y: =28
+            X: =159
+            Y: =24
             ZIndex: =3
 
         Label9 As label:
@@ -198,8 +198,8 @@ Dashboard As screen:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Contact Number'
-            X: =281
-            Y: =28
+            X: =267
+            Y: =24
             ZIndex: =8
 
         Icon5 As icon.CheckBadge:
@@ -282,6 +282,15 @@ Dashboard As screen:
             Y: =439
             ZIndex: =22
 
+    Icon6 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =104
+        Y: =242
+        ZIndex: =35
+
     HeaderGroup As group:
         Height: =5
         Width: =5
@@ -308,6 +317,15 @@ Dashboard As screen:
                 X: =184
                 ZIndex: =1
 
+            Icon6_4 As icon.ArrowsUpDown:
+                Color: =RGBA(128, 128, 128, 1)
+                Height: =38
+                Icon: =Icon.Sort
+                Width: =26
+                X: =216
+                Y: =24
+                ZIndex: =2
+
         Label23 As label:
             FontWeight: =FontWeight.Bold
             Size: =15
@@ -321,23 +339,27 @@ Dashboard As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: ="Professions"
-            X: =676
-            Y: =242
+            X: =667
+            Y: =244
             ZIndex: =3
 
         Label20 As label:
             FontWeight: =FontWeight.Bold
+            Height: =39
             Size: =15
             Text: ="Email Id"
-            X: =494
+            Width: =100
+            X: =497
             Y: =242
             ZIndex: =4
 
         Label10 As label:
             FontWeight: =FontWeight.Bold
+            Height: =38
             Size: =15
             Text: ="FName"
-            X: =44
+            Width: =110
+            X: =31
             Y: =244
             ZIndex: =30
 
@@ -345,8 +367,9 @@ Dashboard As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: ="LName"
-            X: =164
-            Y: =242
+            Width: =84
+            X: =146
+            Y: =244
             ZIndex: =31
 
         Label18 As label:
@@ -354,7 +377,7 @@ Dashboard As screen:
             Size: =15
             Text: ="Contact Number"
             Width: =184
-            X: =278
+            X: =265
             Y: =242
             ZIndex: =32
 
@@ -362,7 +385,7 @@ Dashboard As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: ="Job Title"
-            X: =1020
+            X: =1027
             Y: =242
             ZIndex: =33
 
@@ -374,6 +397,51 @@ Dashboard As screen:
             X: =1216
             Y: =242
             ZIndex: =34
+
+    Icon6_1 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =42
+        Icon: =Icon.Sort
+        Width: =26
+        X: =436
+        Y: =243
+        ZIndex: =36
+
+    Icon6_2 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =791
+        Y: =244
+        ZIndex: =37
+
+    Icon6_3 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =588
+        Y: =242
+        ZIndex: =38
+
+    Icon6_5 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =982
+        Y: =242
+        ZIndex: =39
+
+    Icon6_6 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =1116
+        Y: =242
+        ZIndex: =40
 
     Regform As group:
         Height: =5
