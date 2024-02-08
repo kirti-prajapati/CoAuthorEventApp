@@ -6,6 +6,13 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Email ID",
+                    SortColumnEmailID: !SortColumnEmailID
+                }
+            )
         Width: =26
         X: =588
         Y: =242
@@ -327,6 +334,13 @@ Dashboard As screen:
                 Color: =RGBA(128, 128, 128, 1)
                 Height: =38
                 Icon: =Icon.Sort
+                OnSelect: |-
+                    =UpdateContext(
+                        {
+                            SortColumnPref: "First Name",
+                            SortColumnFirstName: !SortColumnFirstName
+                        }
+                    )
                 Width: =26
                 X: =99
                 Y: =21
@@ -408,6 +422,13 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =42
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Contact Number",
+                    SortColumnContactNumber: !SortColumnContactNumber
+                }
+            )
         Width: =26
         X: =436
         Y: =243
@@ -417,6 +438,13 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Organization",
+                    SortColumnOrganization: !SortColumnOrganization
+                }
+            )
         Width: =26
         X: =982
         Y: =242
@@ -426,6 +454,13 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Job Title",
+                    SortColumnJobTitle: !SortColumnJobTitle
+                }
+            )
         Width: =26
         X: =1116
         Y: =242
@@ -435,6 +470,13 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Professions",
+                    SortColumnProfessions: !SortColumnProfessions
+                }
+            )
         Width: =26
         X: =799
         Y: =243
@@ -444,8 +486,15 @@ Dashboard As screen:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
         Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Last Name",
+                    SortColumnLastName: !SortColumnLastName
+                }
+            )
         Width: =26
-        X: =234
+        X: =216
         Y: =242
         ZIndex: =42
 
