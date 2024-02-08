@@ -203,12 +203,12 @@ Dashboard As screen:
             ZIndex: =8
 
         Icon5 As icon.CheckBadge:
-            Height: =41
+            Height: =38
             Icon: =Icon.CheckBadge
             OnSelect: =Select(Parent)
-            Width: =41
-            X: =1237
-            Y: =31
+            Width: =43
+            X: =1229
+            Y: =28
             ZIndex: =9
 
     grpsuccess As group:
