@@ -207,54 +207,6 @@ Dashboard As screen:
             Y: =31
             ZIndex: =9
 
-    Button3 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Lname"
-        X: =141
-        Y: =231
-        ZIndex: =20
-
-    Button3_3 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Professions"
-        X: =669
-        Y: =231
-        ZIndex: =22
-
-    Button3_5 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Organization "
-        X: =829
-        Y: =231
-        ZIndex: =24
-
-    Button3_6 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Job Title "
-        X: =989
-        Y: =231
-        ZIndex: =25
-
-    Button3_8 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Fname"
-        X: =17
-        Y: =231
-        ZIndex: =26
-
-    Button3_9 As button:
-        Color: =RGBA(50, 86, 160, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Text: ="Action"
-        X: =1167
-        Y: =230
-        ZIndex: =27
-
     grpsuccess As group:
         Height: =5
         Width: =5
@@ -325,6 +277,25 @@ Dashboard As screen:
             X: =622
             Y: =439
             ZIndex: =33
+
+    Gallery1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =67
+        Items: ='Event Attendees Management'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =62
+        Width: =1366
+        Y: =215
+        ZIndex: =43
+
+        Label5 As label:
+            Height: =7
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =184
+            ZIndex: =1
 
     Regform As group:
         Height: =5
@@ -933,78 +904,4 @@ Dashboard As screen:
             X: =921
             Y: =139
             ZIndex: =42
-
-    Group5 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =45
-
-        HeaderGallery As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Fill: =RGBA(232, 244, 217, 1)
-            Height: =55
-            Items: ='Event Attendees Management'
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =50
-            Width: =1366
-            Y: =215
-            ZIndex: =12
-
-            Label18 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Title
-                X: =53
-                Y: =8
-                ZIndex: =1
-
-            Button3_2 As button:
-                Color: =RGBA(50, 86, 160, 1)
-                Fill: =RGBA(0, 0, 0, 0)
-                Text: ="Fname"
-                X: =2
-                Y: =48
-                ZIndex: =2
-
-            Button3_7 As button:
-                Color: =RGBA(50, 86, 160, 1)
-                Fill: =RGBA(0, 0, 0, 0)
-                Text: ="Lname"
-                X: =40
-                Y: =40
-                ZIndex: =3
-
-            Label20 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'First Name'
-                X: =542
-                Y: =33
-                ZIndex: =5
-
-            Label21 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Last Name'
-                X: =572
-                Y: =37
-                ZIndex: =6
-
-        Button3_4 As button:
-            Color: =RGBA(50, 86, 160, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            Text: ="Email Id"
-            X: =477
-            Y: =229
-            ZIndex: =43
-
-        Button3_1 As button:
-            Color: =RGBA(50, 86, 160, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =33
-            Text: ="Contact Number"
-            Width: =179
-            X: =289
-            Y: =231
-            ZIndex: =44
 

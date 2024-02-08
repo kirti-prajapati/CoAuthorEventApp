@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.HeaderGallery.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.HeaderGallery.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.HeaderGallery"
+                "type": "Dashboard.Icon1"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.HeaderGallery.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.HeaderGallery.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.HeaderGallery"
+                "type": "Dashboard.Icon1"
               }
             }
           ],
@@ -554,19 +554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "Dashboard.Gallery1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "Dashboard.Gallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dashboard",
-                "type": "Dashboard.Icon1"
+                "type": "Dashboard.Gallery1"
               }
             }
           ],
@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex"
+                  "fullyQualifiedName": "Dashboard.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Icon1.TabIndex",
+                  "fullyQualifiedName": "Dashboard.Gallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dashboard",
-                "type": "Dashboard.Icon1"
+                "type": "Dashboard.Gallery1"
               }
             }
           ],
