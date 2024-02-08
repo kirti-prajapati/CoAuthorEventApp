@@ -416,15 +416,6 @@ Dashboard As screen:
         Y: =244
         ZIndex: =37
 
-    Icon6_3 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        Width: =26
-        X: =588
-        Y: =242
-        ZIndex: =38
-
     Icon6_5 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
@@ -432,7 +423,7 @@ Dashboard As screen:
         Width: =26
         X: =982
         Y: =242
-        ZIndex: =39
+        ZIndex: =38
 
     Icon6_6 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
@@ -440,6 +431,15 @@ Dashboard As screen:
         Icon: =Icon.Sort
         Width: =26
         X: =1116
+        Y: =242
+        ZIndex: =39
+
+    Icon6_3 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =588
         Y: =242
         ZIndex: =40
 
