@@ -133,7 +133,7 @@ Dashboard As screen:
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =504
-        Items: =Filter('Event Attendees Management',StartsWith(Title, txt_SearchLargeData.Text))
+        Items: =Filter('Event Attendees Management',StartsWith('First Name', txt_SearchLargeData.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =110
