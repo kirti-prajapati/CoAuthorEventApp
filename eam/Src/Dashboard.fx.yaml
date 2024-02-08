@@ -9,7 +9,7 @@ Dashboard As screen:
         Width: =26
         X: =791
         Y: =244
-        ZIndex: =1
+        ZIndex: =2
 
     Icon6_3 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
@@ -18,7 +18,7 @@ Dashboard As screen:
         Width: =26
         X: =588
         Y: =242
-        ZIndex: =2
+        ZIndex: =3
 
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -317,7 +317,7 @@ Dashboard As screen:
             TemplateSize: =62
             Width: =1366
             Y: =215
-            ZIndex: =3
+            ZIndex: =1
 
             Label5 As label:
                 Height: =7
