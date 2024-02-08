@@ -306,7 +306,7 @@ Dashboard As screen:
 
         Gallery1 As gallery.galleryVertical:
             DelayItemLoading: =true
-            Fill: =RGBA(237, 237, 237, 1)
+            Fill: =RGBA(202, 202, 202, 1)
             Height: =67
             Items: ='Event Attendees Management'
             Layout: =Layout.Vertical
@@ -328,8 +328,8 @@ Dashboard As screen:
                 Height: =38
                 Icon: =Icon.Sort
                 Width: =26
-                X: =216
-                Y: =24
+                X: =99
+                Y: =21
                 ZIndex: =2
 
         Label23 As label:
@@ -404,15 +404,6 @@ Dashboard As screen:
             Y: =241
             ZIndex: =36
 
-    Icon6 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        Width: =26
-        X: =104
-        Y: =242
-        ZIndex: =37
-
     Icon6_1 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
         Height: =42
@@ -448,6 +439,15 @@ Dashboard As screen:
         X: =799
         Y: =243
         ZIndex: =41
+
+    Icon6_8 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        Width: =26
+        X: =234
+        Y: =242
+        ZIndex: =42
 
     Regform As group:
         Height: =5
