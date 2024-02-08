@@ -43,3 +43,35 @@ Success As screen:
         Y: =40
         ZIndex: =4
 
+    Image5 As image:
+        Height: =52
+        Image: =address
+        Width: =45
+        X: =532
+        Y: =716
+        ZIndex: =5
+
+    Image5_1 As image:
+        Height: =52
+        Image: ='social-media'
+        Width: =45
+        X: =608
+        Y: =716
+        ZIndex: =6
+
+    Image5_2 As image:
+        Height: =52
+        Image: =twitter
+        Width: =45
+        X: =686
+        Y: =716
+        ZIndex: =7
+
+    Image5_3 As image:
+        Height: =52
+        Image: =instagram
+        Width: =45
+        X: =763
+        Y: =716
+        ZIndex: =8
+
