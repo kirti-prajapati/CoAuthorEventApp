@@ -227,7 +227,7 @@ Dashboard As screen:
             Icon: =Icon.CheckBadge
             OnSelect: |
                 =Navigate(
-                    Button1,
+                    Form1,
                     ScreenTransition.Fade
                 );
             Width: =43
