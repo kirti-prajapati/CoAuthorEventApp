@@ -905,3 +905,70 @@ Dashboard As screen:
             Y: =139
             ZIndex: =42
 
+    Label10 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="FName"
+        X: =44
+        Y: =244
+        ZIndex: =44
+
+    Label17 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="LName"
+        X: =164
+        Y: =242
+        ZIndex: =45
+
+    Label18 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Contact Number"
+        Width: =184
+        X: =278
+        Y: =242
+        ZIndex: =46
+
+    Label20 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Email Id"
+        X: =494
+        Y: =242
+        ZIndex: =47
+
+    Label21 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Professions"
+        X: =676
+        Y: =242
+        ZIndex: =48
+
+    Label23 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Organization"
+        Width: =147
+        X: =842
+        Y: =242
+        ZIndex: =49
+
+    Label24 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Job Title"
+        X: =1020
+        Y: =242
+        ZIndex: =50
+
+    Label25 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Action"
+        Width: =137
+        X: =1216
+        Y: =242
+        ZIndex: =51
+
