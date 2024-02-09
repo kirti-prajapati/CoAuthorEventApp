@@ -168,7 +168,7 @@ Dashboard As screen:
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =504
-        Items: =Filter('Event Attendees Management',StartsWith('First Name', txt_SearchLargeData.Text))
+        Items: =Filter('Event Attendees Management',StartsWith('First name', txt_SearchLargeData.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =110
@@ -185,14 +185,14 @@ Dashboard As screen:
 
         Label7 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'First Name'
+            Text: =ThisItem.'First name'
             X: =26
             Y: =26
             ZIndex: =2
 
         Label8 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Last Name'
+            Text: =ThisItem.'Last name'
             X: =159
             Y: =24
             ZIndex: =3
@@ -200,7 +200,7 @@ Dashboard As screen:
         Label9 As label:
             Height: =44
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Email ID'
+            Text: =ThisItem.'Email '
             Width: =196
             X: =439
             Y: =24
@@ -209,7 +209,7 @@ Dashboard As screen:
         Label11 As label:
             Height: =44
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Professions.Value
+            Text: =ThisItem.Profession.Value
             Width: =107
             X: =665
             Y: =24
@@ -225,7 +225,7 @@ Dashboard As screen:
         Label13 As label:
             Height: =95
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'Job Title'
+            Text: =ThisItem.'Job title'
             Width: =138
             X: =1026
             ZIndex: =7
@@ -566,7 +566,7 @@ Dashboard As screen:
             "'First Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="First_x0020_Name"
-                Default: =ThisItem.'First Name'
+                Default: =ThisItem.'First name'
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"First_x0020_Name")
                 Fill: =RGBA(0, 0, 0, 0)
@@ -634,7 +634,7 @@ Dashboard As screen:
             "'Last Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Last_x0020_Name"
-                Default: =ThisItem.'Last Name'
+                Default: =ThisItem.'Last name'
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Last_x0020_Name")
                 Fill: =RGBA(0, 0, 0, 0)
@@ -769,7 +769,7 @@ Dashboard As screen:
             "'Email ID_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Email_x0020_ID"
-                Default: =ThisItem.'Email ID'
+                Default: =ThisItem.'Email '
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Email_x0020_ID")
                 Fill: =RGBA(0, 0, 0, 0)
@@ -837,7 +837,7 @@ Dashboard As screen:
             Professions_DataCard1 As typedDataCard.comboBoxEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Professions"
-                Default: =ThisItem.Professions
+                Default: =ThisItem.Profession
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Professions")
                 Fill: =RGBA(0, 0, 0, 0)
@@ -864,10 +864,10 @@ Dashboard As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
-                    Items: =Choices([@'Event Attendees Management'].Professions)
+                    Items: =Choices([@'Event Attendees Management'].Profession)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Event Attendees Management'.Professions,DataCardValue5.SearchText)
+                    SearchItems: =Choices('Event Attendees Management'.Profession,DataCardValue5.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =(Parent.Width - 60) * 0.6
@@ -971,7 +971,7 @@ Dashboard As screen:
             "'Job Title_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Job_x0020_Title"
-                Default: =ThisItem.'Job Title'
+                Default: =ThisItem.'Job title'
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Job_x0020_Title")
                 Fill: =RGBA(0, 0, 0, 0)
@@ -1039,7 +1039,7 @@ Dashboard As screen:
             "'Check In  Status_DataCard1' As typedDataCard.toggleEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Check_x0020_In_x0020__x0020_Stat0"
-                Default: =ThisItem.'Check In  Status'
+                Default: =ThisItem.'Check-in'
                 DisplayMode: =Parent.DisplayMode
                 DisplayName: =DataSourceInfo([@'Event Attendees Management'],DataSourceInfo.DisplayName,"Check_x0020_In_x0020__x0020_Stat0")
                 Fill: =RGBA(0, 0, 0, 0)
