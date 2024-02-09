@@ -557,7 +557,10 @@ Dashboard As screen:
             Height: =587
             HtmlText: |-
                 ="<div style='margin: 12px 10px 8px 10px; width: 1335px; height: 48px; background- color: white; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius:5px'> </div>"
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             Width: =527
             X: =462
             Y: =181
@@ -566,7 +569,10 @@ Dashboard As screen:
         Rectangle2 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =587
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             Width: =527
             X: =462
             Y: =181
@@ -575,7 +581,10 @@ Dashboard As screen:
         Form1 As form:
             DataSource: ='Event Attendees Management'
             Height: =524
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             Width: =521
             X: =468
             Y: =244
@@ -1123,14 +1132,20 @@ Dashboard As screen:
                 Set(varRegistrationform,false);
                 Set(varThankyoupopup,true);
             Text: ="Submit"
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             X: =657
             Y: =728
             ZIndex: =28
 
         Rectangle5 As rectangle:
             Height: =82
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             Width: =523
             X: =462
             Y: =133
@@ -1144,7 +1159,10 @@ Dashboard As screen:
             Height: =72
             Size: =25
             Text: ="Registration Form"
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             Width: =519
             X: =462
             Y: =143
@@ -1155,7 +1173,10 @@ Dashboard As screen:
             Icon: =Icon.Cancel
             OnSelect: |
                 =Set(toggle_popup, false)
-            Visible: =varRegistrationform
+            Visible: |+
+                =varRegistrationform
+                
+                
             X: =921
             Y: =139
             ZIndex: =31
