@@ -533,7 +533,7 @@ Dashboard As screen:
         Y: =226
         ZIndex: =40
 
-    Regform As group:
+    Registrationform As group:
         Height: =5
         Width: =5
         X: =40
