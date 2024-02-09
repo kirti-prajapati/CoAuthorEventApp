@@ -55,47 +55,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 61,
-                  "snippet": {
-                    "text": "grpsuccess"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Dashboard",
-                "type": "Dashboard.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Control",
-              "Ident"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Dashboard.Gallery2.AccessibleLabel"
                 }
               ],
@@ -1326,17 +1285,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.grpsuccess"
+                  "fullyQualifiedName": "App.v"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.grpsuccess",
+                  "fullyQualifiedName": "App.v",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "grpsuccess",
+                "member": "v",
                 "module": "App",
                 "type": "App"
               }
