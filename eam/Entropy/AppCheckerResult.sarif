@@ -1744,17 +1744,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.SortColumnPref"
+                  "fullyQualifiedName": "Dashboard.Registrationform"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.SortColumnPref",
+                  "fullyQualifiedName": "Dashboard.Registrationform",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "SortColumnPref",
+                "member": "Registrationform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
@@ -1774,17 +1774,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.VarRegistrationform"
+                  "fullyQualifiedName": "Dashboard.SortColumnPref"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.VarRegistrationform",
+                  "fullyQualifiedName": "Dashboard.SortColumnPref",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "VarRegistrationform",
+                "member": "SortColumnPref",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
