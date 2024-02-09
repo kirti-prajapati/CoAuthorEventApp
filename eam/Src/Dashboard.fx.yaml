@@ -498,7 +498,7 @@ Dashboard As screen:
             Font: =Font.Georgia
             Height: =80
             Size: =25
-            Text: ="Thank you for attendees event."
+            Text: ="Thank you for attendance event."
             Visible: =varThankyoupopup
             Width: =552
             X: =412
