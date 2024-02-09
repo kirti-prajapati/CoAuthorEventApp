@@ -2,6 +2,22 @@ Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
 
+    Icon6_7 As icon.ArrowsUpDown:
+        Color: =RGBA(128, 128, 128, 1)
+        Height: =38
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext(
+                {
+                    SortColumnPref: "Professions",
+                    SortColumnProfessions: !SortColumnProfessions
+                }
+            )
+        Width: =26
+        X: =799
+        Y: =243
+        ZIndex: =2
+
     Icon6_3 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
         Height: =38
@@ -359,6 +375,7 @@ Dashboard As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: ="Professions"
+            Width: =141
             X: =676
             Y: =245
             ZIndex: =5
@@ -432,7 +449,7 @@ Dashboard As screen:
         Width: =26
         X: =436
         Y: =243
-        ZIndex: =38
+        ZIndex: =37
 
     Icon6_5 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
@@ -448,7 +465,7 @@ Dashboard As screen:
         Width: =26
         X: =982
         Y: =242
-        ZIndex: =39
+        ZIndex: =38
 
     Icon6_6 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
@@ -464,23 +481,7 @@ Dashboard As screen:
         Width: =26
         X: =1116
         Y: =242
-        ZIndex: =40
-
-    Icon6_7 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Professions",
-                    SortColumnProfessions: !SortColumnProfessions
-                }
-            )
-        Width: =26
-        X: =799
-        Y: =243
-        ZIndex: =41
+        ZIndex: =39
 
     Icon6_8 As icon.ArrowsUpDown:
         Color: =RGBA(128, 128, 128, 1)
@@ -496,7 +497,7 @@ Dashboard As screen:
         Width: =26
         X: =216
         Y: =242
-        ZIndex: =42
+        ZIndex: =40
 
     Regform As group:
         Height: =5
