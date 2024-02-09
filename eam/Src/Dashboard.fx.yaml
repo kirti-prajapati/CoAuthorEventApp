@@ -1035,8 +1035,11 @@ Dashboard As screen:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DisplayMode: =Parent.DisplayMode
+                    FalseText: ="No"
                     Height: =33
                     Tooltip: =Parent.DisplayName
+                    TrueText: ="Yes"
+                    Width: =105
                     X: =Parent.Width  - Self.Width - 30
                     Y: =7
                     ZIndex: =2
