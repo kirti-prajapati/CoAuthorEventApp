@@ -1107,10 +1107,9 @@ Dashboard As screen:
         Button2 As button:
             OnSelect: |-
                 =SubmitForm(Form1);
-                Navigate(
-                    Success,
-                    ScreenTransition.Fade
-                )
+                ResetForm(Form1);
+                Set(Regform,false);
+                Set(grpsuccess,true);
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =657
