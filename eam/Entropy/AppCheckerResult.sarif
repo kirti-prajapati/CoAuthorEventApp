@@ -1744,36 +1744,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Registrationform"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.Registrationform",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Registrationform",
-                "module": "Dashboard",
-                "type": "Dashboard"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Dashboard.SortColumnPref"
                 }
               ],
