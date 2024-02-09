@@ -1774,17 +1774,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard._ShowRegform"
+                  "fullyQualifiedName": "Dashboard._ShowRegistrationform"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard._ShowRegform",
+                  "fullyQualifiedName": "Dashboard._ShowRegistrationform",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_ShowRegform",
+                "member": "_ShowRegistrationform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
