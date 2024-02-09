@@ -1153,8 +1153,8 @@ Dashboard As screen:
         Icon1 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
             Icon: =Icon.Cancel
-            OnSelect: |-
-                =UpdateContext({_ShowRegistrationform:false})
+            OnSelect: |
+                =Set(toggle_popup, false)
             Visible: =varRegistrationform
             X: =921
             Y: =139

@@ -1504,6 +1504,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.toggle_popup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.toggle_popup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "toggle_popup",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.abstract-background-with-minimalist-design_1048-13338"
                 }
               ],
@@ -1725,36 +1755,6 @@
               },
               "properties": {
                 "member": "SortColumnPref",
-                "module": "Dashboard",
-                "type": "Dashboard"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Dashboard._ShowRegistrationform"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard._ShowRegistrationform",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "_ShowRegistrationform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
