@@ -1504,36 +1504,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varRegistrationform"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.varRegistrationform",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varRegistrationform",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.abstract-background-with-minimalist-design_1048-13338"
                 }
               ],
@@ -1755,6 +1725,36 @@
               },
               "properties": {
                 "member": "SortColumnPref",
+                "module": "Dashboard",
+                "type": "Dashboard"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard._ShowRegform"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard._ShowRegform",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "_ShowRegform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
