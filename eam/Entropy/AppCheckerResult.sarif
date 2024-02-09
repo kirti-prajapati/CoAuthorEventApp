@@ -1774,17 +1774,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard._ShowRegform"
+                  "fullyQualifiedName": "Dashboard.VarRegistrationform"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard._ShowRegform",
+                  "fullyQualifiedName": "Dashboard.VarRegistrationform",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_ShowRegform",
+                "member": "VarRegistrationform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
@@ -1804,17 +1804,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard._ShowVarRegistrationform"
+                  "fullyQualifiedName": "Dashboard._ShowRegform"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard._ShowVarRegistrationform",
+                  "fullyQualifiedName": "Dashboard._ShowRegform",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_ShowVarRegistrationform",
+                "member": "_ShowRegform",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
