@@ -1105,7 +1105,12 @@ Dashboard As screen:
                     ZIndex: =4
 
         Button2 As button:
-            OnSelect: =SubmitForm(Form1)
+            OnSelect: |-
+                =SubmitForm(Form1);
+                Navigate(
+                    Success,
+                    ScreenTransition.Fade
+                )
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =657
