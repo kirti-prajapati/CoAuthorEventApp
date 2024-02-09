@@ -14,8 +14,8 @@ Dashboard As screen:
                 }
             )
         Width: =26
-        X: =799
-        Y: =243
+        X: =782
+        Y: =236
         ZIndex: =2
 
     Icon6_3 As icon.ArrowsUpDown:
@@ -30,8 +30,8 @@ Dashboard As screen:
                 }
             )
         Width: =26
-        X: =588
-        Y: =242
+        X: =522
+        Y: =231
         ZIndex: =3
 
     Gallery2 As gallery.galleryVertical:
@@ -197,19 +197,20 @@ Dashboard As screen:
             ZIndex: =3
 
         Label9 As label:
-            Height: =64
+            Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Email ID'
-            Width: =230
-            X: =471
-            Y: =15
+            Width: =196
+            X: =439
+            Y: =24
             ZIndex: =4
 
         Label11 As label:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.Professions.Value
-            X: =697
+            Width: =107
+            X: =665
             Y: =24
             ZIndex: =5
 
@@ -237,17 +238,38 @@ Dashboard As screen:
             ZIndex: =8
 
         Icon5 As icon.CheckBadge:
-            Height: =38
+            Color: =RGBA(61, 83, 252, 1)
+            Height: =35
             Icon: =Icon.CheckBadge
             OnSelect: |
                 =Navigate(
                     Regform,
                     ScreenTransition.Cover
                 );
-            Width: =43
-            X: =1226
-            Y: =30
+            Width: =32
+            X: =1185
+            Y: =25
             ZIndex: =9
+
+        Icon7 As icon.Edit:
+            Color: =RGBA(61, 83, 252, 1)
+            Height: =36
+            Icon: =Icon.Edit
+            OnSelect: =Select(Parent)
+            Width: =30
+            X: =1238
+            Y: =24
+            ZIndex: =10
+
+        Icon8 As icon.View:
+            Color: =RGBA(61, 83, 252, 1)
+            Height: =36
+            Icon: =Icon.View
+            OnSelect: =Select(Parent)
+            Width: =35
+            X: =1289
+            Y: =24
+            ZIndex: =11
 
     grpsuccess As group:
         Height: =5
@@ -306,7 +328,7 @@ Dashboard As screen:
                 ="<div style='padding: 300px; font size: 25px; color: white; box-shadow:5px 5px 8px #999; clip-path: inset(0px -15px 0px -15px); position: relative; margin: 0 50px; background: linear-gradient(90dg, springgreen, #90EE90);'<center></center> </div>"
             Visible: =false
             Width: =585
-            X: =404
+            X: =395
             Y: =295
             ZIndex: =23
 
@@ -358,8 +380,8 @@ Dashboard As screen:
                         }
                     )
                 Width: =26
-                X: =99
-                Y: =21
+                X: =92
+                Y: =7
                 ZIndex: =2
 
         Label23 As label:
@@ -368,62 +390,67 @@ Dashboard As screen:
             Text: ="Organization"
             Width: =147
             X: =842
-            Y: =242
+            Y: =232
             ZIndex: =4
 
         Label21 As label:
             FontWeight: =FontWeight.Bold
+            Height: =41
             Size: =15
-            Text: ="Professions"
-            Width: =141
-            X: =676
-            Y: =245
+            Text: ="Profession"
+            Width: =123
+            X: =662
+            Y: =231
             ZIndex: =5
 
         Label20 As label:
             FontWeight: =FontWeight.Bold
-            Height: =39
+            Height: =38
             Size: =15
-            Text: ="Email Id"
-            Width: =100
-            X: =497
-            Y: =245
+            Text: ="Email "
+            Width: =71
+            X: =444
+            Y: =231
             ZIndex: =6
 
         Label10 As label:
             FontWeight: =FontWeight.Bold
-            Height: =35
+            Height: =48
             Size: =15
-            Text: ="FName"
-            Width: =88
-            X: =31
-            Y: =240
+            Text: ="First name"
+            Width: =73
+            X: =34
+            Y: =231
             ZIndex: =32
 
         Label17 As label:
             FontWeight: =FontWeight.Bold
+            Height: =48
             Size: =15
-            Text: ="LName"
-            Width: =84
-            X: =146
-            Y: =240
+            Text: ="Last name"
+            Width: =70
+            X: =151
+            Y: =231
             ZIndex: =33
 
         Label18 As label:
             FontWeight: =FontWeight.Bold
+            Height: =43
             Size: =15
-            Text: ="Contact Number"
-            Width: =184
-            X: =265
-            Y: =242
+            Text: ="Contact number"
+            Width: =97
+            X: =272
+            Y: =236
             ZIndex: =34
 
         Label24 As label:
             FontWeight: =FontWeight.Bold
+            Height: =53
             Size: =15
-            Text: ="Job Title"
-            X: =1027
-            Y: =242
+            Text: ="Job title"
+            Width: =55
+            X: =1033
+            Y: =222
             ZIndex: =35
 
         Label25 As label:
@@ -431,8 +458,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Action"
             Width: =137
-            X: =1210
-            Y: =241
+            X: =1198
+            Y: =226
             ZIndex: =36
 
     Icon6_1 As icon.ArrowsUpDown:
@@ -447,8 +474,8 @@ Dashboard As screen:
                 }
             )
         Width: =26
-        X: =436
-        Y: =243
+        X: =369
+        Y: =231
         ZIndex: =37
 
     Icon6_5 As icon.ArrowsUpDown:
@@ -463,8 +490,8 @@ Dashboard As screen:
                 }
             )
         Width: =26
-        X: =982
-        Y: =242
+        X: =981
+        Y: =232
         ZIndex: =38
 
     Icon6_6 As icon.ArrowsUpDown:
@@ -479,8 +506,8 @@ Dashboard As screen:
                 }
             )
         Width: =26
-        X: =1116
-        Y: =242
+        X: =1084
+        Y: =230
         ZIndex: =39
 
     Icon6_8 As icon.ArrowsUpDown:
@@ -496,7 +523,7 @@ Dashboard As screen:
             )
         Width: =26
         X: =216
-        Y: =242
+        Y: =226
         ZIndex: =40
 
     Regform As group:
