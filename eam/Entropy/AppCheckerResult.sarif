@@ -1798,6 +1798,36 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard._ShowRegistrationform"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard._ShowRegistrationform",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "_ShowRegistrationform",
+                "module": "Dashboard",
+                "type": "Dashboard"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
         }
       ],
       "tool": {
