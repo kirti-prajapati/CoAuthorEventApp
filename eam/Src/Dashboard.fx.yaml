@@ -1108,8 +1108,8 @@ Dashboard As screen:
             OnSelect: |-
                 =SubmitForm(Form1);
                 ResetForm(Form1);
-                Set(Regform,false);
-                Set(Thankyoupopup,true);
+                Set(varRegistrationform,false);
+                Set(varThankyoupopup,true);
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =657
