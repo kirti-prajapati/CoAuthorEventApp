@@ -1204,6 +1204,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.varThankyoupopup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.varThankyoupopup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varThankyoupopup",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.varRegistrationform"
                 }
               ],
