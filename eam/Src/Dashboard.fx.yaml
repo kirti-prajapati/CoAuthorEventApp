@@ -1109,7 +1109,7 @@ Dashboard As screen:
                 =SubmitForm(Form1);
                 ResetForm(Form1);
                 Set(Regform,false);
-                Set(v,true);
+                Set(Thankyoupopup,true);
             Text: ="Submit"
             Visible: =_ShowRegform
             X: =657
