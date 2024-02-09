@@ -303,8 +303,8 @@ Dashboard As screen:
             Size: =25
             Text: ="Thank you"
             Visible: =varThankyoupopup
-            Width: =576
-            X: =404
+            Width: =561
+            X: =419
             Y: =295
             ZIndex: =20
 
