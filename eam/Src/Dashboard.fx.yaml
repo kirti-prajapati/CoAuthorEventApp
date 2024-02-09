@@ -321,7 +321,7 @@ Dashboard As screen:
             Color: =RGBA(255, 255, 255, 1)
             Icon: =Icon.Cancel
             OnSelect: |-
-                =UpdateContext({_ShowThankyoupopup:false})
+                =UpdateContext({_varThankyoupopup:false})
             Width: =50
             X: =930
             Y: =295

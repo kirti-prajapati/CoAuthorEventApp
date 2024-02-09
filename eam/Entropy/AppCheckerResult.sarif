@@ -1564,17 +1564,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard._ShowThankyoupopup"
+                  "fullyQualifiedName": "Dashboard._varThankyoupopup"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard._ShowThankyoupopup",
+                  "fullyQualifiedName": "Dashboard._varThankyoupopup",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_ShowThankyoupopup",
+                "member": "_varThankyoupopup",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
