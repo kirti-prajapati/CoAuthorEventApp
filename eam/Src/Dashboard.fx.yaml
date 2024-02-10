@@ -276,7 +276,7 @@ Dashboard As screen:
             OnSelect: |
                 =Set(
                     varEventAttendeesManagement,
-                    ThisItem
+                    true
                 );
                 ViewForm(Form1);
                 Navigate('Form1');
