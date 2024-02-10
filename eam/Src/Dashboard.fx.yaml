@@ -74,11 +74,11 @@ Dashboard As screen:
         ZIndex: =10
 
     Image3_1 As image:
-        Height: =73
+        Height: =86
         Image: =schedule
-        Width: =120
-        X: =1246
-        Y: =19
+        Width: =97
+        X: =1269
+        Y: =25
         ZIndex: =11
 
     txt_SearchLargeData As text:
