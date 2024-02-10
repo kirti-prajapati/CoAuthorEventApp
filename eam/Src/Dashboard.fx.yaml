@@ -245,8 +245,8 @@ Dashboard As screen:
             Icon: =Icon.CheckBadge
             OnSelect: |
                 =Navigate(
-                    Regform,
-                    ScreenTransition.Cover
+                    Registrationform,
+                    ScreenTransition.Fade
                 );
             Width: =32
             X: =1185
@@ -260,7 +260,7 @@ Dashboard As screen:
             OnSelect: |-
                 =EditForm(Form1);
                 Navigate(
-                    Regform,
+                    Registrationform,
                     ScreenTransition.Cover,
                     {SelectedItem: RecordGallery.Selected}
                 )
@@ -273,7 +273,9 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =36
             Icon: =Icon.View
-            OnSelect: =Select(Parent)
+            OnSelect: |+
+                =Set(varEventAttendeesManagement, ThisItem);
+                
             Width: =35
             X: =1289
             Y: =24
