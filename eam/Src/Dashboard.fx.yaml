@@ -457,6 +457,7 @@ Dashboard As screen:
 
         Image7 As image:
             Image: =hand
+            Visible: =false
             X: =643
             Y: =481
             ZIndex: =39
