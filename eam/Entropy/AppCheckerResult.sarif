@@ -1214,17 +1214,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varCloseForm"
+                  "fullyQualifiedName": "App.varCloseVarRegistrationForm"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varCloseForm",
+                  "fullyQualifiedName": "App.varCloseVarRegistrationForm",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varCloseForm",
+                "member": "varCloseVarRegistrationForm",
                 "module": "App",
                 "type": "App"
               }
