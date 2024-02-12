@@ -384,18 +384,12 @@ Dashboard As screen:
         Y: =12
         ZIndex: =38
 
-    Image7 As image:
-        Image: =hand
-        X: =643
-        Y: =481
-        ZIndex: =39
-
     Thankyoupopup As group:
         Height: =5
         Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =42
+        X: =40
+        Y: =40
+        ZIndex: =40
 
         Rectangle3 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -460,6 +454,12 @@ Dashboard As screen:
             X: =609
             Y: =675
             ZIndex: =37
+
+        Image7 As image:
+            Image: =hand
+            X: =643
+            Y: =481
+            ZIndex: =39
 
     Registrationform As group:
         Height: =5
