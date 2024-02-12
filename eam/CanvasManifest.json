@@ -113,11 +113,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "92b1d8ed-62ae-46b0-a1f4-7026bf99d52f",
-    "Id": "29d1ae2d-65a0-4f28-89ca-e5b18c2af21f",
+    "Id": "cc7ebdc2-b601-46ea-bddc-797576526fa6",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Event Attendees Management App",
+    "Name": "Event%2BAttendees%2BManagement%2BApp.msapp",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
