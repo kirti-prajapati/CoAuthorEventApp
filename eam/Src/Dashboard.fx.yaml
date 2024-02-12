@@ -2,22 +2,6 @@ Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
 
-    Icon6_5 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =764
-        Y: =233
-        ZIndex: =2
-
-    Icon6_3 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =514
-        Y: =231
-        ZIndex: =3
-
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
@@ -169,10 +153,12 @@ Dashboard As screen:
             ZIndex: =1
 
         Label8 As label:
+            Height: =50
             OnSelect: =Select(Parent)
             Text: =ThisItem.'First name'
-            X: =11
-            Y: =28
+            Width: =106
+            X: =13
+            Y: =34
             ZIndex: =3
 
         Label9 As label:
@@ -180,15 +166,15 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Last name'
             Width: =136
-            X: =120
+            X: =131
             Y: =28
             ZIndex: =4
 
         Label11 As label:
-            Height: =44
+            Height: =32
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Email '
-            Width: =107
+            Width: =171
             X: =417
             Y: =40
             ZIndex: =5
@@ -196,8 +182,8 @@ Dashboard As screen:
         Label12 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Contact Number'
-            X: =267
-            Y: =26
+            X: =245
+            Y: =39
             ZIndex: =6
 
         Label13 As label:
@@ -205,7 +191,8 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.Profession.Value
             Width: =138
-            X: =616
+            X: =632
+            Y: =2
             ZIndex: =7
 
         Label14 As label:
@@ -265,7 +252,8 @@ Dashboard As screen:
         Label26 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Job title'
-            X: =1008
+            Width: =177
+            X: =981
             Y: =32
             ZIndex: =13
 
@@ -316,8 +304,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Organization"
             Width: =147
-            X: =842
-            Y: =232
+            X: =828
+            Y: =236
             ZIndex: =4
 
         Label21 As label:
@@ -388,47 +376,6 @@ Dashboard As screen:
             X: =1198
             Y: =226
             ZIndex: =36
-
-    Icon6 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =107
-        Y: =233
-        ZIndex: =38
-
-    Icon6_1 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        OnSelect: =
-        Width: =32
-        X: =221
-        Y: =230
-        ZIndex: =39
-
-    Icon6_2 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =361
-        Y: =233
-        ZIndex: =40
-
-    Icon6_10 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =1082
-        Y: =229
-        ZIndex: =41
-
-    Icon6_6 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =982
-        Y: =231
-        ZIndex: =42
 
     Thankyoupopup As group:
         Height: =5
