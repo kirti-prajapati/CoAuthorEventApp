@@ -168,27 +168,20 @@ Dashboard As screen:
             Y: =40
             ZIndex: =1
 
-        Label7 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.ID
-            X: =26
-            Y: =26
-            ZIndex: =2
-
         Label8 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'First name'
-            X: =159
-            Y: =24
+            X: =11
+            Y: =28
             ZIndex: =3
 
         Label9 As label:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Last name'
-            Width: =196
-            X: =439
-            Y: =24
+            Width: =136
+            X: =120
+            Y: =28
             ZIndex: =4
 
         Label11 As label:
@@ -196,15 +189,15 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Email '
             Width: =107
-            X: =665
-            Y: =24
+            X: =417
+            Y: =40
             ZIndex: =5
 
         Label12 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Contact Number'
-            X: =847
-            Y: =28
+            X: =267
+            Y: =26
             ZIndex: =6
 
         Label13 As label:
@@ -212,15 +205,15 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.Profession.Value
             Width: =138
-            X: =1026
+            X: =616
             ZIndex: =7
 
         Label14 As label:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.Organization
-            X: =267
-            Y: =24
+            X: =1016
+            Y: =28
             ZIndex: =8
 
         Icon5 As icon.CheckBadge:
