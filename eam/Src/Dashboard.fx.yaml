@@ -2,54 +2,6 @@ Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
 
-    Icon6_9 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =980
-        Y: =226
-        ZIndex: =1
-
-    Icon6_7 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =502
-        Y: =226
-        ZIndex: =2
-
-    Icon6_8 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =756
-        Y: =231
-        ZIndex: =3
-
-    Icon6_5 As icon.ArrowsUpDown:
-        Height: =41
-        Icon: =Icon.Sort
-        Width: =44
-        X: =750
-        Y: =232
-        ZIndex: =4
-
-    Icon6_6 As icon.ArrowsUpDown:
-        Height: =41
-        Icon: =Icon.Sort
-        Width: =44
-        X: =974
-        Y: =238
-        ZIndex: =5
-
-    Icon6_3 As icon.ArrowsUpDown:
-        Height: =41
-        Icon: =Icon.Sort
-        Width: =44
-        X: =512
-        Y: =228
-        ZIndex: =6
-
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
@@ -516,7 +468,7 @@ Dashboard As screen:
         Icon: =Icon.Sort
         Width: =32
         X: =221
-        Y: =238
+        Y: =230
         ZIndex: =43
 
     Registrationform As group:
@@ -1171,4 +1123,28 @@ Dashboard As screen:
         X: =1082
         Y: =229
         ZIndex: =45
+
+    Icon6_3 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =514
+        Y: =231
+        ZIndex: =46
+
+    Icon6_5 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =764
+        Y: =233
+        ZIndex: =47
+
+    Icon6_6 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =982
+        Y: =231
+        ZIndex: =48
 
