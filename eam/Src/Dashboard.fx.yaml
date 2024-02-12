@@ -303,8 +303,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Organization"
             Width: =147
-            X: =827
-            Y: =226
+            X: =802
+            Y: =229
             ZIndex: =4
 
         Label21 As label:
@@ -313,8 +313,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Profession"
             Width: =123
-            X: =648
-            Y: =231
+            X: =638
+            Y: =232
             ZIndex: =5
 
         Label20 As label:
@@ -359,11 +359,11 @@ Dashboard As screen:
 
         Label24 As label:
             FontWeight: =FontWeight.Bold
-            Height: =53
+            Height: =42
             Size: =15
             Text: ="Job title"
-            Width: =55
-            X: =1033
+            Width: =93
+            X: =1030
             Y: =222
             ZIndex: =35
 

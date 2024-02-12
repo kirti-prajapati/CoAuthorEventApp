@@ -4,7 +4,6 @@ Success As screen:
 
     Label2 As label:
         Align: =Align.Center
-        Color: =RGBA(102, 113, 166, 1)
         FontWeight: =FontWeight.Semibold
         Height: =52
         Size: =30
