@@ -212,7 +212,7 @@ Dashboard As screen:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.Organization
-            X: =1016
+            X: =831
             Y: =28
             ZIndex: =8
 
