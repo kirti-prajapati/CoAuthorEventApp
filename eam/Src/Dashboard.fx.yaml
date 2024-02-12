@@ -35,15 +35,15 @@ Dashboard As screen:
         Size: =15
         Text: ="Powered by "
         Width: =100
-        X: =1169
+        X: =1190
         ZIndex: =10
 
     Image3_1 As image:
-        Height: =76
+        Height: =79
         Image: =schedule
-        Width: =73
-        X: =1280
-        Y: =20
+        Width: =63
+        X: =1290
+        Y: =19
         ZIndex: =11
 
     txt_SearchLargeData As text:
