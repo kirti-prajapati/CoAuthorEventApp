@@ -1184,17 +1184,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varEventAttendeesManagement"
+                  "fullyQualifiedName": "App.varCloseVarRegistrationForm"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varEventAttendeesManagement",
+                  "fullyQualifiedName": "App.varCloseVarRegistrationForm",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varEventAttendeesManagement",
+                "member": "varCloseVarRegistrationForm",
                 "module": "App",
                 "type": "App"
               }
@@ -1214,17 +1214,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varCloseVarRegistrationForm"
+                  "fullyQualifiedName": "App.varEventAttendeesManagement"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varCloseVarRegistrationForm",
+                  "fullyQualifiedName": "App.varEventAttendeesManagement",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varCloseVarRegistrationForm",
+                "member": "varEventAttendeesManagement",
                 "module": "App",
                 "type": "App"
               }
@@ -1304,17 +1304,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.check (1)"
+                  "fullyQualifiedName": "App.cross-removebg-preview"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.check (1)",
+                  "fullyQualifiedName": "App.cross-removebg-preview",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "check (1)",
+                "member": "cross-removebg-preview",
                 "module": "App",
                 "type": "App"
               }
@@ -1334,17 +1334,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.cross-removebg-preview"
+                  "fullyQualifiedName": "App.excellence"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.cross-removebg-preview",
+                  "fullyQualifiedName": "App.excellence",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "cross-removebg-preview",
+                "member": "excellence",
                 "module": "App",
                 "type": "App"
               }

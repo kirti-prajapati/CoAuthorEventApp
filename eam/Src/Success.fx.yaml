@@ -28,11 +28,11 @@ Success As screen:
 
     Image2 As image:
         BorderColor: =RGBA(209, 232, 178, 1)
-        Height: =112
-        Image: =excellence
-        Width: =130
-        X: =643
-        Y: =342
+        Height: =135
+        Image: ='check (1)'
+        Width: =168
+        X: =624
+        Y: =318
         ZIndex: =3
 
     Timer2 As timer:
