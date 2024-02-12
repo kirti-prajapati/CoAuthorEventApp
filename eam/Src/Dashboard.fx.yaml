@@ -1092,7 +1092,7 @@ Dashboard As screen:
                 =Set(varCloseVarRegistrationForm, true)
                 
             Visible: |+
-                =varRegistrationform
+                =!varCloseVarRegistrationForm
                 
                 
             X: =921
