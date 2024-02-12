@@ -2,13 +2,37 @@ Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
 
+    Icon6_9 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =980
+        Y: =226
+        ZIndex: =1
+
+    Icon6_8 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =756
+        Y: =231
+        ZIndex: =2
+
+    Icon6_7 As icon.ArrowsUpDown:
+        Height: =40
+        Icon: =Icon.Sort
+        Width: =32
+        X: =502
+        Y: =226
+        ZIndex: =3
+
     Icon6_6 As icon.ArrowsUpDown:
         Height: =41
         Icon: =Icon.Sort
         Width: =44
         X: =974
         Y: =238
-        ZIndex: =1
+        ZIndex: =4
 
     Icon6_5 As icon.ArrowsUpDown:
         Height: =41
@@ -16,7 +40,7 @@ Dashboard As screen:
         Width: =44
         X: =750
         Y: =232
-        ZIndex: =2
+        ZIndex: =5
 
     Icon6_3 As icon.ArrowsUpDown:
         Height: =41
@@ -24,7 +48,7 @@ Dashboard As screen:
         Width: =44
         X: =512
         Y: =228
-        ZIndex: =3
+        ZIndex: =6
 
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -35,13 +59,13 @@ Dashboard As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
         Width: =1366
-        ZIndex: =8
+        ZIndex: =11
 
     Image3 As image:
         Height: =111
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =194
-        ZIndex: =9
+        ZIndex: =12
 
     Label3 As label:
         Color: =RGBA(56, 96, 178, 1)
@@ -54,7 +78,7 @@ Dashboard As screen:
         Width: =826
         X: =228
         Y: =38
-        ZIndex: =10
+        ZIndex: =13
 
     Label4 As label:
         FontWeight: =FontWeight.Semibold
@@ -63,7 +87,7 @@ Dashboard As screen:
         Text: ="Powered by "
         Width: =100
         X: =1169
-        ZIndex: =11
+        ZIndex: =14
 
     Image3_1 As image:
         Height: =86
@@ -71,7 +95,7 @@ Dashboard As screen:
         Width: =97
         X: =1269
         Y: =25
-        ZIndex: =12
+        ZIndex: =15
 
     txt_SearchLargeData As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -90,7 +114,7 @@ Dashboard As screen:
         Width: =414
         X: =14
         Y: =124
-        ZIndex: =13
+        ZIndex: =16
 
     Icon2 As icon.Search:
         Color: =RGBA(179, 179, 179, 1)
@@ -100,7 +124,7 @@ Dashboard As screen:
         Width: =38
         X: =381
         Y: =133
-        ZIndex: =14
+        ZIndex: =17
 
     TextInput1_1 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -115,7 +139,7 @@ Dashboard As screen:
         Width: =211
         X: =449
         Y: =124
-        ZIndex: =15
+        ZIndex: =18
 
     TextInput1_2 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -130,7 +154,7 @@ Dashboard As screen:
         Width: =211
         X: =682
         Y: =124
-        ZIndex: =16
+        ZIndex: =19
 
     TextInput1_3 As text:
         BorderColor: =RGBA(237, 237, 237, 1)
@@ -145,7 +169,7 @@ Dashboard As screen:
         Width: =211
         X: =915
         Y: =124
-        ZIndex: =17
+        ZIndex: =20
 
     Button1 As button:
         Height: =57
@@ -156,7 +180,7 @@ Dashboard As screen:
         Width: =211
         X: =1142
         Y: =124
-        ZIndex: =18
+        ZIndex: =21
 
     RecordGallery As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -167,7 +191,7 @@ Dashboard As screen:
         TemplateSize: =110
         Width: =1366
         Y: =264
-        ZIndex: =19
+        ZIndex: =22
 
         Label6 As label:
             OnSelect: =Select(Parent)
@@ -294,7 +318,7 @@ Dashboard As screen:
             TemplateSize: =62
             Width: =1366
             Y: =215
-            ZIndex: =4
+            ZIndex: =7
 
             Label5 As label:
                 Height: =7
@@ -326,7 +350,7 @@ Dashboard As screen:
             Width: =147
             X: =842
             Y: =232
-            ZIndex: =5
+            ZIndex: =8
 
         Label21 As label:
             FontWeight: =FontWeight.Bold
@@ -336,7 +360,7 @@ Dashboard As screen:
             Width: =123
             X: =648
             Y: =231
-            ZIndex: =6
+            ZIndex: =9
 
         Label20 As label:
             FontWeight: =FontWeight.Bold
@@ -346,7 +370,7 @@ Dashboard As screen:
             Width: =71
             X: =444
             Y: =231
-            ZIndex: =7
+            ZIndex: =10
 
         Label10 As label:
             FontWeight: =FontWeight.Bold
@@ -356,7 +380,7 @@ Dashboard As screen:
             Width: =73
             X: =34
             Y: =231
-            ZIndex: =33
+            ZIndex: =36
 
         Label17 As label:
             FontWeight: =FontWeight.Bold
@@ -366,7 +390,7 @@ Dashboard As screen:
             Width: =70
             X: =151
             Y: =231
-            ZIndex: =34
+            ZIndex: =37
 
         Label18 As label:
             FontWeight: =FontWeight.Bold
@@ -376,7 +400,7 @@ Dashboard As screen:
             Width: =97
             X: =272
             Y: =236
-            ZIndex: =35
+            ZIndex: =38
 
         Label24 As label:
             FontWeight: =FontWeight.Bold
@@ -386,7 +410,7 @@ Dashboard As screen:
             Width: =55
             X: =1033
             Y: =222
-            ZIndex: =36
+            ZIndex: =39
 
         Label25 As label:
             FontWeight: =FontWeight.Bold
@@ -395,7 +419,7 @@ Dashboard As screen:
             Width: =137
             X: =1198
             Y: =226
-            ZIndex: =37
+            ZIndex: =40
 
     Icon6 As icon.ArrowsUpDown:
         Height: =40
@@ -403,30 +427,6 @@ Dashboard As screen:
         Width: =32
         X: =107
         Y: =233
-        ZIndex: =39
-
-    Icon6_1 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =221
-        Y: =238
-        ZIndex: =40
-
-    Icon6_2 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =361
-        Y: =233
-        ZIndex: =41
-
-    Icon6_7 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =502
-        Y: =226
         ZIndex: =42
 
     Thankyoupopup As group:
@@ -443,7 +443,7 @@ Dashboard As screen:
             Width: =561
             X: =419
             Y: =295
-            ZIndex: =20
+            ZIndex: =23
 
         Label15 As label:
             Align: =Align.Center
@@ -457,7 +457,7 @@ Dashboard As screen:
             Width: =561
             X: =419
             Y: =295
-            ZIndex: =21
+            ZIndex: =24
 
         Label19 As label:
             Align: =Align.Center
@@ -469,7 +469,7 @@ Dashboard As screen:
             Width: =552
             X: =412
             Y: =561
-            ZIndex: =22
+            ZIndex: =25
 
         Icon3 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
@@ -478,7 +478,7 @@ Dashboard As screen:
             Width: =50
             X: =930
             Y: =295
-            ZIndex: =23
+            ZIndex: =26
 
         HtmlText3 As htmlViewer:
             Height: =473
@@ -488,7 +488,7 @@ Dashboard As screen:
             Width: =585
             X: =395
             Y: =295
-            ZIndex: =24
+            ZIndex: =27
 
         Icon4 As icon.Heart:
             Color: =RGBA(219, 219, 219, 1)
@@ -498,7 +498,7 @@ Dashboard As screen:
             Width: =134
             X: =622
             Y: =439
-            ZIndex: =25
+            ZIndex: =28
 
         Timer3 As timer:
             AutoPause: =false
@@ -509,14 +509,14 @@ Dashboard As screen:
             Visible: =false
             X: =609
             Y: =675
-            ZIndex: =38
+            ZIndex: =41
 
-    Icon6_8 As icon.ArrowsUpDown:
+    Icon6_1 As icon.ArrowsUpDown:
         Height: =40
         Icon: =Icon.Sort
         Width: =32
-        X: =756
-        Y: =231
+        X: =221
+        Y: =238
         ZIndex: =43
 
     Registrationform As group:
@@ -538,7 +538,7 @@ Dashboard As screen:
             Width: =527
             X: =462
             Y: =181
-            ZIndex: =26
+            ZIndex: =29
 
         Rectangle2 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -550,7 +550,7 @@ Dashboard As screen:
             Width: =527
             X: =462
             Y: =181
-            ZIndex: =27
+            ZIndex: =30
 
         Form1 As form:
             DataSource: ='Event Attendees Management'
@@ -562,7 +562,7 @@ Dashboard As screen:
             Width: =521
             X: =468
             Y: =244
-            ZIndex: =28
+            ZIndex: =31
 
             "'First Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
@@ -1112,7 +1112,7 @@ Dashboard As screen:
                 
             X: =657
             Y: =728
-            ZIndex: =29
+            ZIndex: =32
 
         Rectangle5 As rectangle:
             Height: =82
@@ -1123,7 +1123,7 @@ Dashboard As screen:
             Width: =523
             X: =462
             Y: =133
-            ZIndex: =30
+            ZIndex: =33
 
         Label22 As label:
             Align: =Align.Center
@@ -1140,7 +1140,7 @@ Dashboard As screen:
             Width: =519
             X: =462
             Y: =143
-            ZIndex: =31
+            ZIndex: =34
 
         Icon1 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
@@ -1154,14 +1154,14 @@ Dashboard As screen:
                 
             X: =921
             Y: =139
-            ZIndex: =32
+            ZIndex: =35
 
-    Icon6_9 As icon.ArrowsUpDown:
+    Icon6_2 As icon.ArrowsUpDown:
         Height: =40
         Icon: =Icon.Sort
         Width: =32
-        X: =980
-        Y: =226
+        X: =361
+        Y: =233
         ZIndex: =44
 
     Icon6_10 As icon.ArrowsUpDown:
