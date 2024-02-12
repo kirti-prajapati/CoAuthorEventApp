@@ -165,8 +165,8 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Last name'
             Width: =136
-            X: =131
-            Y: =28
+            X: =137
+            Y: =40
             ZIndex: =4
 
         Label11 As label:
@@ -181,7 +181,7 @@ Dashboard As screen:
         Label12 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Contact Number'
-            X: =245
+            X: =256
             Y: =39
             ZIndex: =6
 
@@ -198,8 +198,8 @@ Dashboard As screen:
             Height: =44
             OnSelect: =Select(Parent)
             Text: =ThisItem.Organization
-            X: =831
-            Y: =28
+            X: =832
+            Y: =38
             ZIndex: =8
 
         Icon5 As icon.CheckBadge:
@@ -252,8 +252,8 @@ Dashboard As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Job title'
             Width: =115
-            X: =1025
-            Y: =20
+            X: =1026
+            Y: =35
             ZIndex: =13
 
     HeaderGroup As group:
@@ -303,8 +303,8 @@ Dashboard As screen:
             Size: =15
             Text: ="Organization"
             Width: =147
-            X: =828
-            Y: =236
+            X: =827
+            Y: =226
             ZIndex: =4
 
         Label21 As label:
@@ -319,12 +319,12 @@ Dashboard As screen:
 
         Label20 As label:
             FontWeight: =FontWeight.Bold
-            Height: =38
+            Height: =33
             Size: =15
             Text: ="Email "
             Width: =71
-            X: =444
-            Y: =231
+            X: =453
+            Y: =236
             ZIndex: =6
 
         Label10 As label:
