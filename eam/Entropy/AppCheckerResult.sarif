@@ -1214,6 +1214,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Dashboard.Icon6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Icon6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dashboard",
+                "type": "Dashboard.Icon6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.Icon6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.Icon6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dashboard",
+                "type": "Dashboard.Icon6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.searchQuery"
                 }
               ],
@@ -1514,6 +1574,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Dashboard.SortColumPref"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.SortColumPref",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SortColumPref",
+                "module": "Dashboard",
+                "type": "Dashboard"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.SortColumnName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.SortColumnName",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SortColumnName",
+                "module": "Dashboard",
+                "type": "Dashboard"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Dashboard.SortColumnPref"
                 }
               ],
@@ -1525,6 +1645,36 @@
               },
               "properties": {
                 "member": "SortColumnPref",
+                "module": "Dashboard",
+                "type": "Dashboard"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dashboard.SortColumnType"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dashboard.SortColumnType",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SortColumnType",
                 "module": "Dashboard",
                 "type": "Dashboard"
               }
