@@ -262,6 +262,13 @@ Dashboard As screen:
             Y: =24
             ZIndex: =11
 
+        Label26 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Job title'
+            X: =1008
+            Y: =32
+            ZIndex: =13
+
     HeaderGroup As group:
         Height: =5
         Width: =5
