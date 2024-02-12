@@ -13,13 +13,6 @@ Dashboard As screen:
     Icon6_3 As icon.ArrowsUpDown:
         Height: =40
         Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Email",
-                    SortColumnEmail: !SortColumnEmail
-                }
-            )
         Width: =32
         X: =514
         Y: =231
@@ -399,14 +392,6 @@ Dashboard As screen:
     Icon6 As icon.ArrowsUpDown:
         Height: =40
         Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-            {
-                SortColumPref: "First name",
-                SortColumnName: "name",
-                SortColumnType: !SortColumnFirstName
-            }
-            )
         Width: =32
         X: =107
         Y: =233
