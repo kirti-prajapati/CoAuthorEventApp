@@ -10,29 +10,21 @@ Dashboard As screen:
         Y: =226
         ZIndex: =1
 
-    Icon6_8 As icon.ArrowsUpDown:
-        Height: =40
-        Icon: =Icon.Sort
-        Width: =32
-        X: =756
-        Y: =231
-        ZIndex: =2
-
     Icon6_7 As icon.ArrowsUpDown:
         Height: =40
         Icon: =Icon.Sort
         Width: =32
         X: =502
         Y: =226
-        ZIndex: =3
+        ZIndex: =2
 
-    Icon6_6 As icon.ArrowsUpDown:
-        Height: =41
+    Icon6_8 As icon.ArrowsUpDown:
+        Height: =40
         Icon: =Icon.Sort
-        Width: =44
-        X: =974
-        Y: =238
-        ZIndex: =4
+        Width: =32
+        X: =756
+        Y: =231
+        ZIndex: =3
 
     Icon6_5 As icon.ArrowsUpDown:
         Height: =41
@@ -40,6 +32,14 @@ Dashboard As screen:
         Width: =44
         X: =750
         Y: =232
+        ZIndex: =4
+
+    Icon6_6 As icon.ArrowsUpDown:
+        Height: =41
+        Icon: =Icon.Sort
+        Width: =44
+        X: =974
+        Y: =238
         ZIndex: =5
 
     Icon6_3 As icon.ArrowsUpDown:
