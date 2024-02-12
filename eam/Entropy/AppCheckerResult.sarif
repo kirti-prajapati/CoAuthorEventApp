@@ -1214,6 +1214,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.varCloseForm"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.varCloseForm",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varCloseForm",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.abstract-background-with-minimalist-design_1048-13338"
                 }
               ],
