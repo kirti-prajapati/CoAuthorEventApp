@@ -2,38 +2,6 @@ Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
 
-    Icon6_7 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Professions",
-                    SortColumnProfessions: !SortColumnProfessions
-                }
-            )
-        Width: =26
-        X: =782
-        Y: =236
-        ZIndex: =2
-
-    Icon6_3 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Email ID",
-                    SortColumnEmailID: !SortColumnEmailID
-                }
-            )
-        Width: =26
-        X: =522
-        Y: =231
-        ZIndex: =3
-
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
@@ -279,7 +247,7 @@ Dashboard As screen:
                     true
                 );
                 ViewForm(Form1);
-                Navigate('Form1');
+                Navigate(Form1);
             Width: =35
             X: =1289
             Y: =24
@@ -313,7 +281,7 @@ Dashboard As screen:
 
             Icon6_4 As icon.ArrowsUpDown:
                 Color: =RGBA(128, 128, 128, 1)
-                Height: =38
+                Height: =36
                 Icon: =Icon.Sort
                 OnSelect: |-
                     =UpdateContext(
@@ -322,9 +290,9 @@ Dashboard As screen:
                             SortColumnFirstName: !SortColumnFirstName
                         }
                     )
-                Width: =26
-                X: =92
-                Y: =7
+                Width: =36
+                X: =503
+                Y: =222
                 ZIndex: =2
 
         Label23 As label:
@@ -404,70 +372,6 @@ Dashboard As screen:
             X: =1198
             Y: =226
             ZIndex: =36
-
-    Icon6_1 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =42
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Contact Number",
-                    SortColumnContactNumber: !SortColumnContactNumber
-                }
-            )
-        Width: =26
-        X: =369
-        Y: =231
-        ZIndex: =37
-
-    Icon6_5 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Organization",
-                    SortColumnOrganization: !SortColumnOrganization
-                }
-            )
-        Width: =26
-        X: =981
-        Y: =232
-        ZIndex: =38
-
-    Icon6_6 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Job Title",
-                    SortColumnJobTitle: !SortColumnJobTitle
-                }
-            )
-        Width: =26
-        X: =1084
-        Y: =230
-        ZIndex: =39
-
-    Icon6_8 As icon.ArrowsUpDown:
-        Color: =RGBA(128, 128, 128, 1)
-        Height: =38
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext(
-                {
-                    SortColumnPref: "Last Name",
-                    SortColumnLastName: !SortColumnLastName
-                }
-            )
-        Width: =26
-        X: =216
-        Y: =226
-        ZIndex: =40
 
     Thankyoupopup As group:
         Height: =5
