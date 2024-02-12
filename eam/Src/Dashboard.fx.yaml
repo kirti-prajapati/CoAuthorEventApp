@@ -457,6 +457,7 @@ Dashboard As screen:
 
         Image7 As image:
             Image: =hand
+            Visible: =false
             X: =643
             Y: =481
             ZIndex: =39
@@ -496,14 +497,14 @@ Dashboard As screen:
 
         Form1 As form:
             DataSource: ='Event Attendees Management'
-            Height: =524
+            Height: =540
             Visible: |+
                 =varRegistrationform
                 
                 
             Width: =521
             X: =468
-            Y: =244
+            Y: =228
             ZIndex: =27
 
             "'First Name_DataCard1' As typedDataCard.textualEditCard":
