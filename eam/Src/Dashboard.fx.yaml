@@ -455,7 +455,7 @@ Dashboard As screen:
             Height: =32
             OnTimerEnd: =Navigate(Success,ScreenTransition.Fade)
             Start: =varThankyoupopup
-            Visible: =false
+            Visible: =!varThankyoupopup
             Width: =163
             X: =616
             Y: =605
