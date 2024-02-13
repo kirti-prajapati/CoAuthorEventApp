@@ -126,6 +126,10 @@ Dashboard As screen:
         OnSelect: |-
             =NewForm(Form1);
             Set(varRegistrationform,true);
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
         Text: ="Register Now"
         Width: =211
         X: =1142
@@ -389,28 +393,28 @@ Dashboard As screen:
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =40
+        ZIndex: =41
 
         Rectangle3 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =442
             Visible: =varThankyoupopup
-            Width: =561
-            X: =419
+            Width: =554
+            X: =426
             Y: =295
             ZIndex: =19
 
         Label15 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(166, 154, 154, 1)
+            Fill: =RGBA(102, 113, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =64
             Size: =25
             Text: ="Thank you"
             Visible: =varThankyoupopup
-            Width: =561
-            X: =419
+            Width: =554
+            X: =426
             Y: =295
             ZIndex: =20
 
@@ -420,47 +424,34 @@ Dashboard As screen:
             Size: =25
             Text: ="Thank you for attendees event."
             Visible: =varThankyoupopup
-            Width: =511
-            X: =438
+            Width: =504
+            X: =444
             Y: =606
             ZIndex: =21
-
-        Icon3 As icon.Cancel:
-            Color: =RGBA(255, 255, 255, 1)
-            Icon: =Icon.Cancel
-            Visible: =varThankyoupopup
-            Width: =50
-            X: =930
-            Y: =295
-            ZIndex: =22
 
         HtmlText3 As htmlViewer:
             Height: =443
             HtmlText: |-
                 ="<div style='padding: 300px; font size: 25px; color: white; box-shadow:5px 5px 8px #999; clip-path: inset(0px -15px 0px -15px); position: relative; margin: 0 50px; background: linear-gradient(90dg, springgreen, #90EE90);'<center></center> </div>"
             Visible: =varThankyoupopup
-            Width: =585
-            X: =401
+            Width: =578
+            X: =408
             Y: =294
             ZIndex: =23
 
-        Timer3 As timer:
-            AutoPause: =false
-            AutoStart: =true
-            Duration: =20000
-            Fill: =RGBA(0, 0, 0, 0)
-            OnTimerEnd: =Navigate(Success,ScreenTransition.Fade)
-            Visible: =false
-            X: =609
-            Y: =675
-            ZIndex: =37
-
         Image7 As image:
             Image: =hand
-            Visible: =false
-            X: =643
+            Width: =98
+            X: =647
             Y: =481
             ZIndex: =39
+
+        Timer3 As timer:
+            Fill: =RGBA(0, 0, 0, 0)
+            Width: =158
+            X: =608
+            Y: =669
+            ZIndex: =40
 
     Registrationform As group:
         Height: =5
