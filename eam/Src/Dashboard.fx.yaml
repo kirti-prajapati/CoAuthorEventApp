@@ -440,6 +440,7 @@ Dashboard As screen:
             ZIndex: =23
 
         Image7 As image:
+            DisplayMode: =DisplayMode.Disabled
             Height: =83
             Image: =hand
             Width: =101
