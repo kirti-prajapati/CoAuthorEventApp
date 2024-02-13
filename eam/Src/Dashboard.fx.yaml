@@ -397,10 +397,10 @@ Dashboard As screen:
 
         Rectangle3 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =442
+            Height: =367
             Visible: =varThankyoupopup
-            Width: =554
-            X: =426
+            Width: =571
+            X: =428
             Y: =295
             ZIndex: =19
 
@@ -409,48 +409,50 @@ Dashboard As screen:
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 113, 166, 1)
             FontWeight: =FontWeight.Bold
-            Height: =64
+            Height: =52
             Size: =25
             Text: ="Thank you"
             Visible: =varThankyoupopup
-            Width: =554
-            X: =426
+            Width: =571
+            X: =428
             Y: =295
             ZIndex: =20
 
         Label19 As label:
             Align: =Align.Center
-            Height: =44
+            Height: =36
             Size: =25
             Text: ="Thank you for attendees event."
             Visible: =varThankyoupopup
-            Width: =504
-            X: =444
-            Y: =606
+            Width: =521
+            X: =447
+            Y: =553
             ZIndex: =21
 
         HtmlText3 As htmlViewer:
-            Height: =443
+            Height: =367
             HtmlText: |-
                 ="<div style='padding: 300px; font size: 25px; color: white; box-shadow:5px 5px 8px #999; clip-path: inset(0px -15px 0px -15px); position: relative; margin: 0 50px; background: linear-gradient(90dg, springgreen, #90EE90);'<center></center> </div>"
             Visible: =varThankyoupopup
-            Width: =578
-            X: =408
-            Y: =294
+            Width: =577
+            X: =428
+            Y: =295
             ZIndex: =23
 
         Image7 As image:
+            Height: =83
             Image: =hand
-            Width: =98
-            X: =647
-            Y: =481
+            Width: =101
+            X: =655
+            Y: =449
             ZIndex: =39
 
         Timer3 As timer:
             Fill: =RGBA(0, 0, 0, 0)
-            Width: =158
-            X: =608
-            Y: =669
+            Height: =32
+            Width: =163
+            X: =616
+            Y: =605
             ZIndex: =40
 
     Registrationform As group:
