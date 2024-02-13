@@ -450,7 +450,8 @@ Dashboard As screen:
         Timer3 As timer:
             AutoPause: =false
             AutoStart: =true
-            Duration: =25000
+            DisplayMode: =DisplayMode.Disabled
+            Duration: =50000
             Fill: =RGBA(0, 0, 0, 0)
             Height: =32
             OnTimerEnd: =Navigate(Success,ScreenTransition.Fade)
