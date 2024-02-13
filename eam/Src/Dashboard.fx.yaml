@@ -425,8 +425,8 @@ Dashboard As screen:
             Text: ="Thank you for attendees event."
             Visible: =varThankyoupopup
             Width: =521
-            X: =447
-            Y: =553
+            X: =456
+            Y: =447
             ZIndex: =21
 
         HtmlText3 As htmlViewer:
@@ -438,15 +438,6 @@ Dashboard As screen:
             X: =428
             Y: =295
             ZIndex: =23
-
-        Image7 As image:
-            DisplayMode: =DisplayMode.Disabled
-            Height: =83
-            Image: =hand
-            Width: =101
-            X: =655
-            Y: =449
-            ZIndex: =39
 
         Timer3 As timer:
             AutoPause: =false
