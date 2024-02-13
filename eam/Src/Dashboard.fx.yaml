@@ -448,8 +448,12 @@ Dashboard As screen:
             ZIndex: =39
 
         Timer3 As timer:
+            AutoPause: =false
+            AutoStart: =true
+            Duration: =25000
             Fill: =RGBA(0, 0, 0, 0)
             Height: =32
+            OnTimerEnd: =Navigate(Success,ScreenTransition.Fade)
             Width: =163
             X: =616
             Y: =605
