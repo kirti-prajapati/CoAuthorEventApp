@@ -454,6 +454,7 @@ Dashboard As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =32
             OnTimerEnd: =Navigate(Success,ScreenTransition.Fade)
+            Visible: =false
             Width: =163
             X: =616
             Y: =605
