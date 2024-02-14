@@ -224,13 +224,16 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =36
             Icon: =Icon.Edit
-            OnSelect: |-
-                =EditForm(Form1);
-                Navigate(
-                    Registrationform,
-                    ScreenTransition.Cover,
-                    {SelectedItem: RecordGallery.Selected}
-                )
+            OnSelect: |
+                =//UpdateContext({ButtonPressed: true});
+                Set(
+                    varRegistrationform,
+                    true
+                );
+                Set(
+                    selectedItem,
+                    ThisItem
+                );
             Width: =30
             X: =1238
             Y: =24

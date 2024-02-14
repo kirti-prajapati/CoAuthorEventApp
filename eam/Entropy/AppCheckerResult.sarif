@@ -1214,6 +1214,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.selectedItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.selectedItem",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "selectedItem",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.abstract-background-with-minimalist-design_1048-13338"
                 }
               ],
@@ -1418,36 +1448,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Dashboard.SelectedItem"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Dashboard.SelectedItem",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "SelectedItem",
-                "module": "Dashboard",
-                "type": "Dashboard"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
         },
         {
           "locations": [
