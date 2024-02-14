@@ -1086,7 +1086,7 @@ Dashboard As screen:
             Icon: =Icon.Cancel
             OnSelect: |
                 =//Set(varCloseVarRegistrationForm, true)
-                Navigate(Dashboard)
+                Navigate(Splash)
             Visible: |+
                 =varRegistrationform
                 
