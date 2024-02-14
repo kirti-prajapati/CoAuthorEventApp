@@ -230,7 +230,7 @@ Dashboard As screen:
             OnSelect: |
                 =//UpdateContext({ButtonPressed: true});
                 //Set(varRegistrationform,true);Set(selectedItem,ThisItem);
-                Set(SelectedRecord, RecordGallery.Selected); UpdateContext({ ShowEditFormOverlay: true })
+                Set(SelectedRecord, RecordGallery.Selected); UpdateContext({ ShowEditFormOverlay:true})
             Width: =30
             X: =1238
             Y: =24
