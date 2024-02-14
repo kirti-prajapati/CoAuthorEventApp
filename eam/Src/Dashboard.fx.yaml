@@ -14,7 +14,7 @@ Dashboard As screen:
         ZIndex: =7
 
     Image3 As image:
-        Height: =111
+        Height: =98
         Image: ='photo_2024-02-05_12-17-19-transformed'
         Width: =135
         ZIndex: =8
