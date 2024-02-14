@@ -243,13 +243,10 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =36
             Icon: =Icon.View
-            OnSelect: |
-                =Set(
-                    varEventAttendeesManagement,
-                    true
-                );
-                ViewForm(Form1);
-                Navigate(Form1);
+            OnSelect: |-
+                =//UpdateContext({ButtonPressed: true});
+                
+                Set(varRegistrationform,true); Set(selectedItem, ThisItem);
             Width: =35
             X: =1289
             Y: =24
