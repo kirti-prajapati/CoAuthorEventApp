@@ -26,12 +26,12 @@ Dashboard As screen:
         Size: =23
         Text: ="Global Power Platform Bootcamp 2024 Ahmedabad"
         Width: =851
-        X: =291
-        Y: =38
+        X: =287
+        Y: =28
         ZIndex: =9
 
     Label4 As label:
-        Height: =111
+        Height: =98
         Size: =15
         Text: ="Powered by "
         Width: =100
@@ -43,7 +43,7 @@ Dashboard As screen:
         Image: =schedule
         Width: =63
         X: =1290
-        Y: =19
+        Y: =9
         ZIndex: =11
 
     txt_SearchLargeData As text:
@@ -381,11 +381,11 @@ Dashboard As screen:
             ZIndex: =36
 
     Image6 As image:
-        Height: =86
+        Height: =83
         Image: ='WhatsApp_Image_2024-01-30_at_17.51.49_69b23ba8-removebg-preview'
-        Width: =96
-        X: =196
-        Y: =12
+        Width: =77
+        X: =214
+        Y: =7
         ZIndex: =38
 
     Thankyoupopup As group:
