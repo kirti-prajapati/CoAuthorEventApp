@@ -493,6 +493,7 @@ Dashboard As screen:
         Form1 As form:
             DataSource: ='Event Attendees Management'
             Height: =540
+            Item: =Defaults('Event Attendees Management')
             Visible: |+
                 =varRegistrationform
                 
