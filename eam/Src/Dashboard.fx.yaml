@@ -1084,8 +1084,7 @@ Dashboard As screen:
         Icon1 As icon.Cancel:
             Color: =RGBA(255, 255, 255, 1)
             Icon: =Icon.Cancel
-            OnSelect: |
-                =Set(varCloseVarRegistrationForm,true)
+            OnSelect: =Set(varCloseVarRegistrationForm,true)
             Visible: |+
                 =varRegistrationform
                 
