@@ -210,11 +210,14 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =35
             Icon: =Icon.CheckBadge
-            OnSelect: |
+            OnSelect: |-
                 =Navigate(
                     Registrationform,
                     ScreenTransition.Fade
                 );
+                //UpdateContext({ButtonPressed: true});
+                
+                Set(varShowstudentPopup,true); Set(selectedItem, ThisItem);
             Width: =32
             X: =1185
             Y: =25
