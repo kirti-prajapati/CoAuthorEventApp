@@ -243,7 +243,7 @@ Dashboard As screen:
             Icon: =Icon.View
             OnSelect: |+
                 =//UpdateContext({ButtonPressed: true});
-                UpdateContext({varRegistrationform:true})
+                UpdateContext({varRegistrationform:true});
                 Set(varRegistrationform,true);Set(selectedItem,ThisItem);
                 //Set(SelectedRecord, RecordGallery.Selected); 
                 
