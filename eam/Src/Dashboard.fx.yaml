@@ -231,6 +231,7 @@ Dashboard As screen:
                 =//UpdateContext({ButtonPressed: true});
                 Set(varRegistrationform,true);
                 Set(selectedItem,ThisItem);
+                Navigate(RecordGallery,Transition.Pop,selectedItem);
                 
             Width: =30
             X: =1238
@@ -246,6 +247,7 @@ Dashboard As screen:
                 //UpdateContext({varRegistrationform:true});
                 Set(varThankyoupopup,false);
                 Set(varRegistrationform,true);Set(selectedItem,ThisItem);
+                
                 //Set(SelectedRecord, RecordGallery.Selected); 
                 
             Width: =35
