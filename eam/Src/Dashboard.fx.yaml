@@ -1,6 +1,7 @@
 Dashboard As screen:
     BackgroundImage: ='milad-fakurian-GJKx5lhwU3M-unsplash (1)'
     ImagePosition: =ImagePosition.Fill
+    OnVisible: =Set(varThankyoupopup,false);Set(varRegistrationform,false);
 
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
