@@ -241,10 +241,12 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =36
             Icon: =Icon.View
-            OnSelect: |
+            OnSelect: |+
                 =//UpdateContext({ButtonPressed: true});
-                //Set(varRegistrationform,true);Set(selectedItem,ThisItem);
-                Set(SelectedRecord, RecordGallery.Selected); UpdateContext({varRegistrationform:true})
+                UpdateContext({varRegistrationform:true})
+                Set(varRegistrationform,true);Set(selectedItem,ThisItem);
+                //Set(SelectedRecord, RecordGallery.Selected); 
+                
             Width: =35
             X: =1289
             Y: =24
