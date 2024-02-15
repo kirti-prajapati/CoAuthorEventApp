@@ -219,7 +219,7 @@ Dashboard As screen:
                 
                 Set(varShowstudentPopup,true); Set(selectedItem, ThisItem);
             Width: =32
-            X: =1185
+            X: =1187
             Y: =25
             ZIndex: =9
 
@@ -227,10 +227,11 @@ Dashboard As screen:
             Color: =RGBA(61, 83, 252, 1)
             Height: =36
             Icon: =Icon.Edit
-            OnSelect: |
+            OnSelect: |+
                 =//UpdateContext({ButtonPressed: true});
-                //Set(varRegistrationform,true);Set(selectedItem,ThisItem);
-                Set(SelectedRecord, RecordGallery.Selected); UpdateContext({varRegistrationform:true})
+                Set(varRegistrationform,true);
+                Set(selectedItem,ThisItem);
+                
             Width: =30
             X: =1238
             Y: =24
